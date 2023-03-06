@@ -85,7 +85,7 @@ La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à 
 .Étapes
 . Dans le menu de navigation, sélectionnez *stockage > Canvas*.
 . Sur la page Canevas, cliquez sur *Ajouter un environnement de travail* et sélectionnez *sur site*.
-. Sélectionnez *ONTAP sur site*.
+. À côté de ONTAP sur place, sélectionnez *découvrir*.
 . Si vous y êtes invité, créez un connecteur.
 +
 Reportez-vous aux exigences ci-dessus pour plus de détails.
@@ -132,7 +132,7 @@ La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à 
 .Étapes
 . Dans le menu de navigation, sélectionnez *stockage > Canvas*.
 . Sur la page Canevas, cliquez sur *Ajouter un environnement de travail* et sélectionnez *sur site*.
-. Sélectionnez *local On-local ONTAP (Direct)*.
+. À côté de local On-prest ONTAP (Direct), sélectionnez *découvrir*.
 . Entrez l'adresse IP de gestion de cluster et le mot de passe du compte utilisateur admin, puis cliquez sur *Ajouter*.
 
 
