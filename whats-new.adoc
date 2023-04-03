@@ -14,7 +14,29 @@ summary: Découvrez les nouveautés de la gestion de clusters ONTAP sur site dan
 
 
 [role="lead"]
-Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP (anciennement Cloud Manager).
+Découvrez les nouveautés de la gestion de clusters ONTAP sur site dans BlueXP.
+
+
+
+== 3 avril 2023
+
+
+
+=== Option de détection unique depuis la console BlueXP
+
+Une seule option est disponible lorsque vous découvrez un cluster ONTAP sur site à partir de la console BlueXP :
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["Capture d'écran montrant l'option découvrir ONTAP sur site disponible lors de la création d'un environnement de travail"]
+
+Auparavant, il y avait des flux séparés pour la découverte directe et pour la découverte avec un connecteur. Ces deux options sont toujours disponibles, mais fusionnées en un seul flux.
+
+Lorsque vous démarrez le processus de détection, BlueXP découvre le cluster comme suit :
+
+* Si vous disposez d'un connecteur actif qui dispose d'une connexion à votre cluster ONTAP, BlueXP l'utilisera pour détecter et gérer le cluster.
+* Si vous ne disposez pas d'un connecteur ou si votre connecteur ne dispose pas d'une connexion au cluster ONTAP, BlueXP utilise automatiquement l'option de détection et de gestion directes.
+
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["En savoir plus sur les options de découverte et de gestion"].
 
 
 

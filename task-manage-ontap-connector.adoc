@@ -16,6 +16,12 @@ summary: 'Si vous avez besoin d"effectuer une gestion avancée d"un cluster ONTA
 [role="lead"]
 Si vous avez découvert un cluster ONTAP sur site à l'aide d'un connecteur, vous pouvez créer des volumes à partir de la vue Standard, utiliser System Manager depuis la vue avancée et activer les services de données BlueXP.
 
+Sur le Canvas, l'icône de l'environnement de travail d'un cluster détecté avec un connecteur doit ressembler à ce qui suit :
+
+image:screenshot-connector-we.png["Capture d'écran de l'icône de l'environnement de travail qui s'affiche sur le canevas"]
+
+Si un environnement de travail a été découvert directement, l'icône de l'environnement de travail inclut le mot « Direct ».
+
 
 
 == Créez des volumes à partir de la vue Standard
