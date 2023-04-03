@@ -218,36 +218,42 @@ Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez 
 
 == Activez les services de données BlueXP
 
-Activez les services de données BlueXP dans vos environnements de travail pour répliquer, sauvegarder, analyser et hiérarchiser les données.
+Intégrez les services de données BlueXP dans vos environnements de travail pour répliquer des données, les sauvegarder, les transférer et bien plus encore.
 
+Réplication des données:: Répliquez les données entre les systèmes Cloud Volumes ONTAP, les systèmes de fichiers Amazon FSX pour ONTAP et les clusters ONTAP. Choisissez une réplication unique des données, qui peut vous aider à déplacer vos données depuis et vers le cloud, ou un calendrier récurrent, qui peut vous aider à effectuer une reprise d'activité ou la conservation des données à long terme.
++
+--
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["La documentation relative à la réplication"^]
 
+--
+Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud à l'aide de Cloud Backup.
++
+--
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Documentation Cloud Backup"^]
 
-=== Réplication des données
+--
+Scannez, cartographier et classez vos données:: Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
++
+--
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Documentation Cloud Data Sense"^]
 
-Vous pouvez répliquer des données entre les systèmes Cloud Volumes ONTAP et les clusters ONTAP en choisissant une réplication de données unique, qui peut vous aider à déplacer des données vers et depuis le cloud, ou un planning récurrent, qui peut vous aider à la reprise sur incident ou à la conservation à long terme.
+--
+Basculez les données vers le cloud:: Étendez votre data Center au cloud en effectuant le Tiering automatique des données inactives des clusters ONTAP vers le stockage objet à l'aide de NetApp Cloud Tiering.
++
+--
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Documentation de NetApp Cloud Tiering"^]
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Découvrez comment répliquer des données"^]
+--
+Maintenez l'intégrité, la disponibilité et les performances:: Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.
++
+--
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["Documentation sur la résilience opérationnelle"^]
 
+--
+Identifiez les clusters ayant une capacité faible:: Identifiez les clusters affichant une faible capacité, examinez les clusters pour vérifier leur capacité actuelle et prévue, etc.
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["Documentation sur l'efficacité économique"^]
 
+--
 
-=== Sauvegarder les données
-
-Avec Cloud Backup, vous pouvez sauvegarder les données stockées dans le système ONTAP sur site vers un stockage objet à faible coût dans le cloud. Ce service inclut des fonctionnalités de sauvegarde et de restauration pour la protection et l'archivage à long terme de vos données sur site et dans le cloud.
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Découvrez comment sauvegarder des données dans le cloud"^]
-
-
-
-=== Scannez, cartographier et classez vos données
-
-Cloud Data Sense peut analyser vos clusters sur site pour mapper et classer les données, et identifier des informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Découvrez comment numériser, cartographier et classer vos données"^]
-
-
-
-=== Basculez les données vers le cloud
-
-Étendez votre data Center au cloud en effectuant le Tiering automatique des données inactives des clusters ONTAP vers le stockage objet à l'aide de NetApp Cloud Tiering.
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Découvrez comment transférer des données vers le cloud"^]

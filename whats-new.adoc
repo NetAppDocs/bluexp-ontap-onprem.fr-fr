@@ -86,7 +86,7 @@ Les modifications suivantes ont été introduites avec la version 3.9.22 du conn
 
 Nous avons introduit une nouvelle page de présentation qui contient des informations clés sur un cluster ONTAP sur site. Par exemple, vous pouvez désormais afficher des informations telles que l'efficacité du stockage, la distribution de la capacité et les informations système.
 
-Vous pouvez également consulter des informations détaillées sur l'intégration avec d'autres services cloud NetApp permettant le Tiering des données, la réplication des données et les sauvegardes.
+Vous pouvez également afficher des informations détaillées sur l'intégration avec d'autres services BlueXP permettant le Tiering des données, la réplication des données et les sauvegardes.
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["Capture d'écran affichant la page Présentation d'un cluster ONTAP sur site."]
 

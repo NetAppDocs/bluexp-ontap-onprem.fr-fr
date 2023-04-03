@@ -112,19 +112,8 @@
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">Ensuite, le nouveau volume est ajouté à l'environnement de travail.</block>
   <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">En outre, si une action secondaire est implémentée dans le modèle, par exemple, l'activation de Cloud Backup sur le volume, cette action est également effectuée.</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.</block>
-  <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">Vous pouvez répliquer des données entre les systèmes Cloud Volumes ONTAP et les clusters ONTAP en choisissant une réplication de données unique, qui peut vous aider à déplacer des données vers et depuis le cloud, ou un planning récurrent, qui peut vous aider à la reprise sur incident ou à la conservation à long terme.</block>
-  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">Découvrez comment répliquer des données</block>
-  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
-  <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">Avec Cloud Backup, vous pouvez sauvegarder les données stockées dans le système ONTAP sur site vers un stockage objet à faible coût dans le cloud. Ce service inclut des fonctionnalités de sauvegarde et de restauration pour la protection et l'archivage à long terme de vos données sur site et dans le cloud.</block>
-  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">Découvrez comment sauvegarder des données dans le cloud</block>
-  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">Scannez, cartographier et classez vos données</block>
-  <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data Sense peut analyser vos clusters sur site pour mapper et classer les données, et identifier des informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.</block>
-  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">Découvrez comment numériser, cartographier et classer vos données</block>
-  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">Étendez votre data Center au cloud en effectuant le Tiering automatique des données inactives des clusters ONTAP vers le stockage objet à l'aide de NetApp Cloud Tiering.</block>
-  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">Découvrez comment transférer des données vers le cloud</block>
-  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.</block>
@@ -204,7 +193,6 @@
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">Les modifications suivantes ont été introduites avec la version 3.9.22 du connecteur.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">Nouvelle page de présentation</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">Nous avons introduit une nouvelle page de présentation qui contient des informations clés sur un cluster ONTAP sur site. Par exemple, vous pouvez désormais afficher des informations telles que l'efficacité du stockage, la distribution de la capacité et les informations système.</block>
-  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">Vous pouvez également consulter des informations détaillées sur l'intégration avec d'autres services cloud NetApp permettant le Tiering des données, la réplication des données et les sauvegardes.</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">Capture d'écran affichant la page Présentation d'un cluster ONTAP sur site.</block>
   <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">Volumes redéfinis</block>
@@ -336,7 +324,6 @@
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">Si vous avez besoin d'effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l'interface System Manager directement dans BlueXP afin que vous n'ayez pas besoin de laisser BlueXP pour une gestion avancée.</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">Obtenez de l'aide avec System Manager</block>
   <block id="9094954a45207debf588da430f00322f" category="section-title">Activez les services de données BlueXP</block>
-  <block id="5c4d507eeba73d584fcde6e4f2f1b172" category="paragraph">Activez les services de données BlueXP dans vos environnements de travail pour répliquer, sauvegarder, analyser et hiérarchiser les données.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">Réplication des données</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">Sauvegarder les données</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">Basculez les données vers le cloud</block>
@@ -509,4 +496,25 @@
   <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">Si vous y êtes invité, entrez vos informations d'identification ONTAP.</block>
   <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">Vous êtes invité à vous connecter avec vos informations d'identification ONTAP chaque fois que vous ouvrez l'environnement de travail, si vous n'enregistrez pas les informations d'identification. Vous avez la possibilité d'enregistrer les informations d'identification afin que vous n'ayez pas besoin de les saisir à chaque fois. Si vous utilisez cette option, les informations d'identification sont uniquement associées à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">Vous pouvez également afficher des informations détaillées sur l'intégration avec d'autres services BlueXP permettant le Tiering des données, la réplication des données et les sauvegardes.</block>
+  <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">Intégrez les services de données BlueXP dans vos environnements de travail pour répliquer des données, les sauvegarder, les transférer et bien plus encore.</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Répliquez les données entre les systèmes Cloud Volumes ONTAP, les systèmes de fichiers Amazon FSX pour ONTAP et les clusters ONTAP. Choisissez une réplication unique des données, qui peut vous aider à déplacer vos données depuis et vers le cloud, ou un calendrier récurrent, qui peut vous aider à effectuer une reprise d'activité ou la conservation des données à long terme.</block>
+  <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">La documentation relative à la réplication</block>
+  <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
+  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud à l'aide de Cloud Backup.</block>
+  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">Documentation Cloud Backup</block>
+  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.</block>
+  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">Documentation Cloud Data Sense</block>
+  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
+  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">Documentation de NetApp Cloud Tiering</block>
+  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
+  <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">Maintenez l'intégrité, la disponibilité et les performances</block>
+  <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.</block>
+  <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">Documentation sur la résilience opérationnelle</block>
+  <block id="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="paragraph"><block ref="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">Identifiez les clusters ayant une capacité faible</block>
+  <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">Identifiez les clusters affichant une faible capacité, examinez les clusters pour vérifier leur capacité actuelle et prévue, etc.</block>
+  <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">Documentation sur l'efficacité économique</block>
+  <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
 </blocks>
