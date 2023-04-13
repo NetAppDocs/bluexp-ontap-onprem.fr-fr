@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: 'Vous pouvez utiliser le porte-monnaie numérique pour afficher les détails du cluster et l"état du contrat matériel et logiciel.' 
+summary: 'Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n"avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.' 
 ---
 = Afficher les informations sur le cluster et les détails du contrat
 :hardbreaks:
@@ -14,17 +14,28 @@ summary: 'Vous pouvez utiliser le porte-monnaie numérique pour afficher les dé
 
 
 [role="lead"]
-Vous pouvez utiliser _Digital Wallet_ pour afficher les détails du cluster et l'état du contrat matériel et logiciel.
+Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.
+
+.Avant de commencer
+Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.
 
 .Étapes
 . Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Dans *Portefeuille numérique*, cliquez sur l'onglet *ONTAP* sur site.
+. Sélectionnez *ONTAP sur site*.
++
+Si vous êtes invité à saisir d'abord les identifiants de votre compte sur le site de support NetApp, saisissez-les dans le tableau de bord du support. Une fois le compte ajouté, les clusters qui figurent dans ce compte sont affichés.
+
 +
 Les dates d'expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.
 
-. Si le contrat est proche de la date d'expiration ou a expiré, vous pouvez cliquer sur l'icône de chat dans le coin inférieur droit de BlueXP pour demander une extension au contrat.
-. Pour les clusters que vous souhaitez obtenir des informations supplémentaires, cliquez sur image:button_down_caret.png["Une icône de point d'arrêt"] pour développer les informations sur le cluster.
 +
-image:screenshot_digital_wallet_license_info.png["Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster."]
+image:screenshot_digital_wallet_onprem_main.png["Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster."]
+
+. Si vous n'avez pas encore découvert de cluster comme environnement de travail, sélectionnez *Discover* et suivez les invites.
++
+Une fois que vous avez identifié un cluster, il est disponible en tant qu'environnement de travail dans BlueXP pour que vous puissiez le gérer.
 
 
+
+.Lien associé
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP"^]

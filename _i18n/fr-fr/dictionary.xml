@@ -6,7 +6,6 @@
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communautés</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
@@ -60,14 +59,8 @@
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Si le connecteur est dans le Cloud, toutes les communications sortantes sont autorisées par le groupe de sécurité prédéfini.</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à partir de toutes les adresses IP. Si vous avez modifié cette stratégie par défaut ou si vous avez créé votre propre stratégie de pare-feu, vous devez associer le protocole HTTPS à cette politique et activer l'accès à partir de l'hôte du connecteur.</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">Dans le menu de navigation BlueXP, sélectionnez *gouvernance &gt; porte-monnaie numérique*.</block>
-  <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">Vous pouvez utiliser _Digital Wallet_ pour afficher les détails du cluster et l'état du contrat matériel et logiciel.</block>
-  <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">Dans *Portefeuille numérique*, cliquez sur l'onglet *ONTAP* sur site.</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">Les dates d'expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.</block>
-  <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">Si le contrat est proche de la date d'expiration ou a expiré, vous pouvez cliquer sur l'icône de chat dans le coin inférieur droit de BlueXP pour demander une extension au contrat.</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">Une icône de point d'arrêt</block>
-  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">Pour les clusters que vous souhaitez obtenir des informations supplémentaires, cliquez sur <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> pour développer les informations sur le cluster.</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster.</block>
-  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">procédure à suivre</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Dans le menu de navigation, sélectionnez *stockage &gt; Canvas*.</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">Sur la page Canvas, double-cliquez sur le nom du cluster ONTAP sur site sur lequel vous souhaitez provisionner les volumes.</block>
@@ -294,7 +287,6 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toute la documentation BlueXP</block>
-  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">Vous pouvez utiliser le porte-monnaie numérique pour afficher les détails du cluster et l'état du contrat matériel et logiciel.</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">Afficher les informations sur le cluster et les détails du contrat</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">Découvrez les clusters ONTAP sur site</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">Options de découverte et de gestion</block>
@@ -517,4 +509,16 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">Identifiez les clusters affichant une faible capacité, examinez les clusters pour vérifier leur capacité actuelle et prévue, etc.</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">Documentation sur l'efficacité économique</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Avant de commencer</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">Sélectionnez *ONTAP sur site*.</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">Si vous êtes invité à saisir d'abord les identifiants de votre compte sur le site de support NetApp, saisissez-les dans le tableau de bord du support. Une fois le compte ajouté, les clusters qui figurent dans ce compte sont affichés.</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">Si vous n'avez pas encore découvert de cluster comme environnement de travail, sélectionnez *Discover* et suivez les invites.</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">Une fois que vous avez identifié un cluster, il est disponible en tant qu'environnement de travail dans BlueXP pour que vous puissiez le gérer.</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">Lien associé</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP</block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
 </blocks>
