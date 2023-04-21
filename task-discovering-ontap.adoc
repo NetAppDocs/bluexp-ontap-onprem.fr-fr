@@ -27,7 +27,7 @@ Découverte via un connecteur:: Cette option vous permet de gérer les clusters 
 --
 * La vue Standard, qui fournit les opérations de base du volume
 * L'affichage avancé, qui permet une gestion via System Manager (pris en charge par ONTAP 9.10.0 et versions ultérieures)
-* Intégration avec les services de données BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification des données et le Tiering des données
+* Intégration avec les services BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification des données et le Tiering des données
 
 
 Cette option requiert un connecteur que vous pouvez installer dans un fournisseur cloud ou sur site.
@@ -80,7 +80,7 @@ Si vous voulez transférer les données inactives vers le cloud, consultez les c
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs"^]
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["Basculement entre les connecteurs"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Découvrez NetApp Cloud Tiering"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Découvrez le Tiering BlueXP"^]
 
 
 * L'hôte du connecteur doit autoriser l'accès HTTPS sortant via le port 443.

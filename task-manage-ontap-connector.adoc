@@ -126,7 +126,7 @@ image:screenshot_template_creating_resource_ontap.png["Capture d'écran indiquan
 
 Ensuite, le nouveau volume est ajouté à l'environnement de travail.
 
-En outre, si une action secondaire est implémentée dans le modèle, par exemple, l'activation de Cloud Backup sur le volume, cette action est également effectuée.
+Par ailleurs, si une action secondaire est implémentée dans le modèle, par exemple pour l'activation de la sauvegarde et de la restauration BlueXP sur le volume, cette action est également exécutée.
 
 .Une fois que vous avez terminé
 Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.
@@ -216,7 +216,7 @@ Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez 
 
 
 
-== Activez les services de données BlueXP
+== Activez les services BlueXP
 
 Intégrez les services de données BlueXP dans vos environnements de travail pour répliquer des données, les sauvegarder, les transférer et bien plus encore.
 
@@ -226,22 +226,22 @@ Réplication des données:: Répliquez les données entre les systèmes Cloud Vo
 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["La documentation relative à la réplication"^]
 
 --
-Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud à l'aide de Cloud Backup.
+Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Documentation Cloud Backup"^]
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Documentation sur la sauvegarde et la restauration"^]
 
 --
 Scannez, cartographier et classez vos données:: Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Documentation Cloud Data Sense"^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Documentation de classification"^]
 
 --
-Basculez les données vers le cloud:: Étendez votre data Center au cloud en effectuant le Tiering automatique des données inactives des clusters ONTAP vers le stockage objet à l'aide de NetApp Cloud Tiering.
+Basculez les données vers le cloud:: Étendez votre data Center au cloud en transférant automatiquement les données inactives des clusters ONTAP au stockage objet.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Documentation de NetApp Cloud Tiering"^]
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Documentation sur la hiérarchisation"^]
 
 --
 Maintenez l'intégrité, la disponibilité et les performances:: Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.
