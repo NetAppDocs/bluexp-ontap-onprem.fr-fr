@@ -16,7 +16,17 @@ summary: Les limitations connues identifient les plateformes, les périphérique
 [role="lead"]
 Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.
 
-Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP :
+
+
+== Clusters non pris en charge
+
+Les clusters ONTAP sur site configurés avec l'authentification SAML ne sont pas pris en charge par BlueXP.
+
+
+
+== Limites de System Manager
+
+Les fonctionnalités suivantes de System Manager ne sont pas prises en charge par BlueXP :
 
 * Configuration du cluster
 +

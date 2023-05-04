@@ -325,7 +325,6 @@
   <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">Utilisation de l'affichage avancé (System Manager)</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">Les limitations connues identifient les plateformes, les périphériques ou les fonctions qui ne sont pas pris en charge par cette version du produit, ou qui ne fonctionnent pas correctement avec elle. Examinez attentivement ces limites.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">Limites connues</block>
-  <block id="d7eb6312f68de520afbf446e19850f73" category="paragraph">Quelques fonctions de System Manager ne sont pas prises en charge par BlueXP :</block>
   <block id="bbbaee2173c1bbfdec1f9145d05f9f6e" category="paragraph">Une fois que vous avez défini l'adresse IP de gestion et configuré le mot de passe d'administration sur un cluster ONTAP sur site, vous pouvez découvrir le cluster dans BlueXP.</block>
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">Contrôle d'accès basé sur des rôles (connecteur uniquement)</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">Le contrôle d'accès basé sur des rôles dans System Manager n'est pas pris en charge lors de la découverte et de la gestion d'un cluster ONTAP sur site à l'aide d'un connecteur. Vous êtes invité à saisir vos informations d'identification administrateur lors du processus de détection. Ces identifiants sont utilisés pour toutes les actions effectuées depuis System Manager.</block>
@@ -509,4 +508,8 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Note pour BlueXP</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="04bc2a96611cc493340c1c133029a56c" category="paragraph">Activez Cloud Backup sur un cluster local directement à partir de la sauvegarde et de la restauration BlueXP.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">Clusters non pris en charge</block>
+  <block id="b9dbfde306bbf057c758e6f86b276382" category="paragraph">Les clusters ONTAP sur site configurés avec l'authentification SAML ne sont pas pris en charge par BlueXP.</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">Limites de System Manager</block>
+  <block id="863293364989cec504101494f7916b90" category="paragraph">Les fonctionnalités suivantes de System Manager ne sont pas prises en charge par BlueXP :</block>
 </blocks>
