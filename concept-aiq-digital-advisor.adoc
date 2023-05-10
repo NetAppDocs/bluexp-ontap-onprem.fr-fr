@@ -40,4 +40,4 @@ Digital Advisor fournit des informations sur tous les systèmes ONTAP sur site e
 
 == Plus d'informations
 
-https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Documentation de Digital Advisor"^]
+https://["Documentation de Digital Advisor"^]
