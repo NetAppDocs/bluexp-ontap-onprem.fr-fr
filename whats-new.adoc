@@ -45,7 +45,7 @@ NOTE: Si vous ne possédez pas de connecteur, vous ne pouvez pas effectuer de mi
 
 Une seule option est disponible lorsque vous découvrez un cluster ONTAP sur site à partir de la console BlueXP :
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["Capture d'écran montrant l'option découvrir ONTAP sur site disponible lors de la création d'un environnement de travail"]
+aea8878e3e5cb0f622cbe596cc98ef50
 
 Auparavant, il y avait des flux séparés pour la découverte directe et pour la découverte avec un connecteur. Ces deux options sont toujours disponibles, mais fusionnées en un seul flux.
 
@@ -55,7 +55,7 @@ Lorsque vous démarrez le processus de détection, BlueXP découvre le cluster c
 * Si vous ne disposez pas d'un connecteur ou si votre connecteur ne dispose pas d'une connexion au cluster ONTAP, BlueXP utilise automatiquement l'option de détection et de gestion directes.
 
 
-https://["En savoir plus sur les options de découverte et de gestion"].
+d74db5b2b9703b60c98aead9c3c3275e
 
 
 
@@ -81,7 +81,7 @@ Les modifications suivantes ont été introduites avec la version 3.9.24 du conn
 
 Vous pouvez désormais détecter directement vos clusters ONTAP sur site sans utiliser de connecteur. Cette option permet de gérer le cluster via System Manager uniquement. Vous ne pouvez pas activer de services de données BlueXP sur ce type d'environnement de travail.
 
-https://["En savoir plus sur cette option de découverte et de gestion"].
+7b755afb39a1416600c762f9fe472d98
 
 
 
@@ -89,7 +89,7 @@ https://["En savoir plus sur cette option de découverte et de gestion"].
 
 Pour les clusters ONTAP sur site découverts via un connecteur, la vue standard de BlueXP affiche désormais les volumes FlexGroup créés via System Manager ou l'interface de ligne de commande ONTAP. Vous pouvez également gérer ces volumes en les clonant, en modifiant leurs paramètres, en les supprimant, et plus encore.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["Copie d'écran montrant un volume FlexGroup sur la page volumes pour un cluster ONTAP sur site."]
+aa60f08e9c5a748d9b57c0e7689a43f5
 
 BlueXP ne prend pas en charge la création de volumes FlexGroup. Vous devez continuer à utiliser System Manager ou l'interface de ligne de commandes pour créer des volumes FlexGroup.
 
@@ -107,7 +107,7 @@ Nous avons introduit une nouvelle page de présentation qui contient des informa
 
 Vous pouvez également afficher des informations détaillées sur l'intégration avec d'autres services BlueXP permettant le Tiering des données, la réplication des données et les sauvegardes.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["Capture d'écran affichant la page Présentation d'un cluster ONTAP sur site."]
+5277a2f54c2173b12f8eb86ae9da078e
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 Nous avons repensé la page volumes pour fournir un récapitulatif des volumes d'un cluster. Le récapitulatif présente le nombre total de volumes, la quantité de capacité provisionnée, la capacité utilisée et réservée, ainsi que la quantité de données hiérarchisées.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["Capture d'écran présentant la page volumes d'un cluster ONTAP sur site."]
+bb4feb07894e787f9d7a8a9c00fa4d55
 
 
 
@@ -145,7 +145,7 @@ Cette vue avancée est disponible sous forme d'aperçu avec les clusters ONTAP s
 
 Vous pouvez désormais afficher l'inventaire de vos clusters ONTAP sur site ainsi que les dates d'expiration de leurs contrats de service et matériels. Des informations supplémentaires sur les clusters sont également disponibles.
 
-https://["Découvrez comment afficher ces informations importantes sur le cluster sur site"]. Vous devez disposer d'un compte sur le site de support NetApp pour les clusters, et vous devez joindre les identifiants NSS à votre compte Cloud Manager.
+09cc582da9a3118b6520cf72b79e82b3
 
 
 

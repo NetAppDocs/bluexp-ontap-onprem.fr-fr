@@ -223,25 +223,25 @@ Intégrez les services de données BlueXP dans vos environnements de travail pou
 Réplication des données:: Répliquez les données entre les systèmes Cloud Volumes ONTAP, les systèmes de fichiers Amazon FSX pour ONTAP et les clusters ONTAP. Choisissez une réplication unique des données, qui peut vous aider à déplacer vos données depuis et vers le cloud, ou un calendrier récurrent, qui peut vous aider à effectuer une reprise d'activité ou la conservation des données à long terme.
 +
 --
-https://["La documentation relative à la réplication"^]
+5f87e564b371518f04853fd701600836
 
 --
 Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud.
 +
 --
-https://["Documentation sur la sauvegarde et la restauration"^]
+6645031c9d411c3036d45429e7b9b169
 
 --
 Scannez, cartographier et classez vos données:: Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
 +
 --
-https://["Documentation de classification"^]
+4f24a5d25954834b6fff1a00bf7ad8e8
 
 --
 Basculez les données vers le cloud:: Étendez votre data Center au cloud en transférant automatiquement les données inactives des clusters ONTAP au stockage objet.
 +
 --
-https://["Documentation sur la hiérarchisation"^]
+4be55bddfe0135eea0cb86495548cff5
 
 --
 Maintenez l'intégrité, la disponibilité et les performances:: Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.
