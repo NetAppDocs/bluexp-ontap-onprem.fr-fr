@@ -10,151 +10,151 @@ summary: 'NetApp prend en charge BlueXP de plusieurs façons. De nombreuses opti
 :imagesdir: ../media/
 
 
-7c5661ab6b39ee901cea00a6e7020a49
+NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.
 
 
 
-== edd15fbeb7b2dffa163336ecd4f3e80c
+== Utilisation d'options de support en libre-service
 
-5e4b821a1a82558dead1ef6961e90666
+Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :
 
-* 942c9249796cf6b78c981ebf15195809
+* https://kb.netapp.com/Cloud/BlueXP["Base de connaissances"^]
 +
-9a3db1abe5491d0eb9bb5d125981356c
+Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.
 
-* 410fdb9caa9c64da2ff3f88f4836960d
+* http://community.netapp.com/["Communautés"^]
 +
-00c5fef3bb9d593ae96bf5d2ee60354a
+Rejoignez la communauté BlueXP pour suivre des discussions en cours ou en créer de nouveaux.
 
-* 5b6cf869265c13af8566f192b4ab3d2a
+* Documentation
 +
-a4a6c2ea0078252eac2d74ef3e6c917c
+La documentation BlueXP que vous consultez actuellement.
 
-* 80b1b0d2b1ebf2b3cba2d25759801afd
+* Courrier électronique :ng-cloudmanager-feedback@netapp.com[E-mail de commentaires]
 +
-6702efec14563f45f1ee2f8c613b8ad8
+Nous accordons une grande importance à vos commentaires. Envoyez vos commentaires pour nous aider à améliorer BlueXP.
 
 
 
 
 
-== d88bacf2a9fdcbbc844edcba97c34e30
+== Créez un dossier de demande de support auprès du support NetApp
 
-82812db645b6ff5e9c2a24ddfb66c8d6
+Outre les options d'auto-support mentionnées ci-dessus, vous pouvez travailler avec un spécialiste du support NetApp pour résoudre tous les problèmes après avoir activé le service de support.
 
-.8fece025a1a8fef7018449bf104a2527
-1012a287397c66025d7748edf06a36e2
+.Avant de commencer
+Pour utiliser la fonction *Créer un cas*, vous devez d'abord effectuer un enregistrement unique de votre numéro de série d'ID de compte BlueXP (par exemple 960xxxx) avec NetApp. link:task-support-registration.html["Découvrez comment vous inscrire à de l'aide"].
 
 .Étapes
-. 6254a4afeeb76765a127fe74d31c1b3d
-. 08d96fdd1a845d80db99e6e1dffb8bc7
+. Dans BlueXP, cliquez sur *aide > support*.
+. Sur la page *Ressources*, choisissez l'une des options disponibles sous support technique :
 +
-.. 383133cb6f7207b1c65c3ace94aa5e95
-.. 5be2e1dfe4bf215289731df45ec8157b
+.. Cliquez sur *appelez-nous* si vous souhaitez parler avec quelqu'un au téléphone. Vous serez dirigé vers une page netapp.com qui répertorie les numéros de téléphone que vous pouvez appeler.
+.. Cliquez sur *Créer un dossier* pour ouvrir un dossier auprès d'un spécialiste du support NetApp :
 +
-*** b53e0a259f4a0c8e7da80d6c94e26c84
+*** *Compte sur le site de support NetApp* : sélectionnez le compte NSS applicable associé à la personne qui ouvre le dossier de support. Cette personne sera le contact principal avec NetApp en plus de l'e-mail ci-dessous.
 +
-d950fb930d7f7e6bfdda1b91b4639a02
+Si vous ne voyez pas votre compte NSS, vous pouvez accéder à l'onglet *NSS Management* de la section support de BlueXP pour l'ajouter.
 
-*** d63bf50426f4c712554faec55b30c548
-*** 2e50c5f85523f0aba9ff2db10f18279c
+*** *Service* : sélectionnez le service auquel le problème est associé. Par exemple, BlueXP lorsqu'il est spécifique à un problème de support technique avec des flux de travail ou des fonctionnalités au sein du service.
+*** *Environnement de travail* : si applicable au stockage, sélectionnez *Cloud Volumes ONTAP* ou *sur site*, puis l'environnement de travail associé.
 +
-aa996e20900197b0ea41485ada083d8c
+La liste des environnements de travail est comprise dans le cadre du compte, de l'espace de travail et du connecteur BlueXP que vous avez sélectionnés dans la bannière supérieure du service.
 
-*** e6f29fb3c7636dc0040600dd0e84bb79
+*** *Priorité du cas* : choisissez la priorité du cas, qui peut être faible, Moyen, élevé ou critique.
 +
-835eb4008e97c2a7f69bbb2725285e34
+Pour en savoir plus sur ces priorités, passez votre souris sur l'icône d'information située à côté du nom du champ.
 
-*** 0f7d9319c95a8be1492e74601c4b3259
-*** 002c6f26fb01affb37b8cf3cef7a1fb0
-*** c7f5c1a75acc58c6f004efc0ce1eba09
+*** *Description du problème* : fournir une description détaillée de votre problème, y compris les messages d'erreur ou les étapes de dépannage applicables que vous avez effectués.
+*** *Adresses e-mail supplémentaires*: Entrez des adresses e-mail supplémentaires si vous souhaitez informer quelqu'un d'autre de ce problème.
+*** *Pièce jointe (facultatif)* : téléchargez jusqu'à cinq pièces jointes, une à la fois.
 +
-bfa80e7aaad6da353b431bff3a0e12d6
+Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.
 
 
 
 
 
 +
-a2ff30886e1baf1e7d5045b5fc24f5b9
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-create-case.png["Capture d'écran du formulaire Créer un dossier qui vous permet de créer un dossier auprès du support NetApp."]
 
 
 
 .Une fois que vous avez terminé
-18f487556417bb6d9721a7005ae097c9
+Une fenêtre contextuelle contenant votre numéro de dossier de support s'affiche. Un spécialiste du support NetApp va étudier votre dossier et vous recontacterons très rapidement.
 
-04e15da1deae9568b4dcda64fbb0c8d5
+Pour consulter l'historique de vos dossiers d'assistance, vous pouvez cliquer sur *Paramètres > Chronologie* et rechercher les actions nommées "Créer un dossier de support". Un bouton à l'extrême droite vous permet de développer l'action pour voir les détails.
 
-5c56753585e89a84941bb3a78bc681af
+Il est possible que vous rencontriez le message d'erreur suivant lors de la création d'un dossier :
 
-a30f69ab0ec85d427a3e8835713525bd
+« Vous n'êtes pas autorisé à créer un dossier pour le service sélectionné »
 
-fa6b601b2fb4e3e5c7b466ecb8bd70ac
+Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez consulter votre liste de comptes NSS en haut du formulaire *Créer un dossier* pour trouver la correspondance appropriée, ou vous pouvez demander de l'aide en utilisant l'une des options suivantes :
 
-* e01df0b4dfd95eba2c59333419e4fac6
-* 639be990cfca56ab4b63685d8bacd437
-
-
+* Utilisez le chat du produit
+* Soumettre un dossier non technique à https://mysupport.netapp.com/site/help[]
 
 
-== 898e35e1a4bf4b025c3edec879439b08
 
-8b74b053fbeeff5c3b6f4991cb1d028d
 
-394ef093ad3259b9ff0fe7406f015b83
+== Gestion de vos dossiers de demande de support (aperçu)
 
-cf3a2d2c139bf5c9cc87fe714bfff3b1
+Vous pouvez afficher et gérer les dossiers de support actifs et résolus directement à partir de BlueXP. Vous pouvez gérer les dossiers associés à votre compte NSS et à votre entreprise.
 
-* 5e4e7672ec2ba2b8a763da7f6714e212
+La gestion des dossiers est disponible en tant qu'aperçu. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.
+
+Notez ce qui suit :
+
+* Le tableau de bord de gestion des dossiers en haut de la page propose deux vues :
 +
-** 01c3ffea552d74a5ae390b10e71a1f26
-** e3b6c09a5686233f72ce1ea60a1eb088
+** La vue de gauche affiche le nombre total de dossiers ouverts au cours des 3 derniers mois par le compte NSS utilisateur que vous avez fourni.
+** La vue de droite affiche le nombre total de dossiers ouverts au cours des 3 derniers mois au niveau de votre entreprise en fonction de votre compte NSS utilisateur.
 
 
 +
-b19b168cc8a2b8c984465e140256b3a2
+Les résultats du tableau reflètent les cas liés à la vue que vous avez sélectionnée.
 
-* 56dcadeee6b0e5c47a52673f9b5a0bb3
+* Vous pouvez ajouter ou supprimer des colonnes d'intérêt et filtrer le contenu des colonnes telles que priorité et Statut. D'autres colonnes offrent uniquement des fonctions de tri.
 +
-6f936762e1223311f031685422fcd3a4
+Pour plus d'informations, consultez les étapes ci-dessous.
 
-* b14929795a61440e9b4ec9f8a4885ae3
+* Au niveau de chaque dossier, nous offrons la possibilité de mettre à jour les notes de dossier ou de fermer un dossier qui n'est pas déjà à l'état fermé ou en attente fermée.
 
 
 .Étapes
-. 6254a4afeeb76765a127fe74d31c1b3d
-. 34b1296d31cefa72dae9b3a364b1f444
+. Dans BlueXP, cliquez sur *aide > support*.
+. Cliquez sur *case Management* et si vous y êtes invité, ajoutez votre compte NSS à BlueXP.
 +
-d8ce1865cf1fe3cffd60300b4b86ad63
+La page *gestion des cas* affiche les cas ouverts associés au compte NSS associé à votre compte utilisateur BlueXP. Il s'agit du même compte NSS qui apparaît en haut de la page *gestion NSS*.
 
-. 2ae5ae78bdb2d222f15fd8e89248709c
+. Modifiez éventuellement les informations qui s'affichent dans le tableau :
 +
-** 27635a52fe4c34c39ffc6430f4244ec6
-** 059e856250b59be3069246887b74a23c
+** Sous *cas de l'organisation*, cliquez sur *Afficher* pour afficher tous les cas associés à votre société.
+** Modifiez la plage de dates en choisissant une plage de dates exacte ou en choisissant une autre période.
 +
-7fcba8aeefa9960d3fc3fa08b360ba2e
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-date-range.png["Capture d'écran de l'option au-dessus du tableau de la page gestion des cas qui vous permet de choisir une plage de dates exacte ou les 7 derniers jours, 30 derniers jours ou 3 derniers mois."]
 
-** a1bb576be9e5a356290f231efb51b3f5
+** Filtrez le contenu des colonnes.
 +
-37709be3a43df07d5975287545d0ba12
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-filter.png["Capture d'écran de l'option de filtre dans la colonne État qui vous permet de filtrer les dossiers correspondant à un état spécifique, comme actif ou fermé."]
 
-** 1614dc8e47c0492434152c990d6c1040
+** Modifiez les colonnes qui apparaissent dans le tableau en cliquant sur image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-columns.png["Icône plus qui apparaît dans le tableau"] puis choisissez les colonnes que vous souhaitez afficher.
 +
-5de408d7cbad49634fb25f9047498132
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-columns.png["Capture d'écran affichant les colonnes que vous pouvez afficher dans le tableau."]
 
 
 
-. 98efef1c8a47ed5791b41944e8ff4ec2
+. Pour gérer un dossier de demande de support existant, cliquez sur image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-table-action.png["Icône avec trois points qui apparaît dans la dernière colonne du tableau"] et en sélectionnant l'une des options disponibles :
 +
-** 6d9dd74e7709ef802d299966f7898f6b
-** 8e6b52a532a4fbbfc98dca3ebfa5f1e6
+** *Voir cas*: Afficher tous les détails sur un cas spécifique.
+** *Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.
 +
-bfa80e7aaad6da353b431bff3a0e12d6
+Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.
 
-** f791bc685c526af8296381acff10f6a0
+** *Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et cliquez sur *Fermer le cas*.
 
 
 +
-e9a5c374fb47ed2ae5cc6108fb36d829
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-case-management-actions.png["Capture d'écran qui montre les actions que vous pouvez effectuer après avoir sélectionné le menu dans la dernière colonne du tableau."]
 
 

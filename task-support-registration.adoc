@@ -10,98 +10,98 @@ summary: 'Avant d"ouvrir un dossier de demande de support auprès du support tec
 :imagesdir: ../media/
 
 
-8bf30fadf784022b073adb9233678a71
+Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site du support NetApp (NSS) à BlueXP, puis vous inscrire pour obtenir du support.
 
 
 
-== 0375f4855be072c7d856a0233cc21de9
+== Prise en charge des solutions des fournisseurs cloud
 
-be845c219bb74b14349ffa6e27e7aef3
+Pour obtenir une assistance technique sur les solutions de fournisseurs de services cloud suivantes que vous avez intégrées à BlueXP, reportez-vous à la section « obtention d'aide » de la documentation BlueXP de ce produit.
 
-* 5bf5309465f91318228a7f956b826348
-* 0e2bc9c853e0af52ead12823c025e58b
-* 02efcbea18b9485a78a41871dce1e64d
-
-
+* link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSX pour ONTAP"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["Cloud Volumes Service pour Google Cloud"^]
 
 
-== 0b0e252af8897fbe981ec6682d2aa33b
 
-192054ad7601240a3e8be54cc5cc548e
 
-* 2322ca552c2b0ebe090c8485519246a8
+== Présentation de l'inscription au support
+
+Il existe deux types d'inscription pour activer les droits d'assistance :
+
+* Enregistrement de votre abonnement au support pour les identifiants de compte BlueXP (votre numéro de série à 20 chiffres 960xxxxxxxxx se trouve sur la page des ressources de support de BlueXP).
 +
-23fdcbefa6d9cd877be7ceb7a18bb936
+Il sert d'ID d'abonnement unique pour tous les services de BlueXP. Chaque abonnement au support BlueXP au niveau du compte doit être enregistré.
 
-* 55ff64467cd508971910145ab5d6b3b8
+* Enregistrement des numéros de série Cloud Volumes ONTAP associés à un abonnement sur le marché de votre fournisseur cloud (numéros de série à 20 chiffres 909201xxxxxxxx).
 +
-67dbdeb11e22ea7def810bade59ce818
+Ces numéros de série sont généralement appelés _PAYGO - numéros de série_ et sont générés par BlueXP au moment du déploiement de Cloud Volumes ONTAP.
 
 
 
-9d4125dc88bb9db6eb4be939905761ce
+L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets.
 
-98bc603dcb6d5a57d540b13b541fa41a
+La façon dont vous vous inscrivez dépend de votre présence ou de votre présence chez un client ou un partenaire nouveau ou existant.
 
-* e5646198d2e01aab2cec9ef946f9c53a
+* Client ou partenaire existant
 +
-76928f97884b4332b83c5be9b99d93d3
-
-+
-8d80298f51b7ff2da78e26e60195c7a3
-
-* 1c91f3adc957364cb01d33e100ee1ea3
-+
-679f2cae4657f177cc89458d49c97e5f
+En tant que client ou partenaire NetApp, vous pouvez utiliser votre compte SSO du site de support NetApp pour effectuer les enregistrements suivants. Dans le tableau de bord support, BlueXP fournit une page *NSS Management* où vous pouvez ajouter votre compte NSS. Une fois votre compte NSS ajouté, BlueXP enregistre automatiquement ces numéros de série pour vous.
 
 +
-97454ce87333f7ebd50ee38b8126fb39
+<<Ajouter un compte NSS à BlueXP,Découvrez comment ajouter votre compte NSS>>.
+
+* Nouveaux partenaires NetApp
++
+Si vous êtes nouveau chez NetApp, vous devez enregistrer votre numéro de série BlueXP sur le site d'inscription du support NetApp. Une fois que vous avez terminé cette inscription et créé un nouveau compte NSS, vous pouvez utiliser ce compte dans BlueXP pour vous inscrire automatiquement à l'avenir.
+
++
+<<Inscrivez-vous auprès de NetApp,Découvrez comment vous inscrire auprès de NetApp>>.
 
 
 
 
 
-== a92ec860f505b318fd0f0eba6165d607
+== Ajouter un compte NSS à BlueXP
 
-f2575f6d19024f7288cf78d7dc5b3db9
+Le tableau de bord du support vous permet d'ajouter et de gérer vos comptes du site de support NetApp pour BlueXP.
 
-* 328a2c1e7778e9edaf79d90c51409ac4
-* e3cd99e4aa330ae6bdfb3754d83ae962
+* Si vous avez un compte au niveau du client, vous pouvez ajouter un ou plusieurs comptes NSS.
+* Si vous avez un compte partenaire ou revendeur, vous pouvez ajouter un ou plusieurs comptes NSS, mais ils ne peuvent pas être ajoutés en même temps que les comptes au niveau du client.
 
 
 .Étapes
-. 1afe19576f77bb0073c93359ed2cbb18
+. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.
 +
-868d9aa88f16ea923af1d15eac5d2647
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
-. d17d6b5dafebab6b7659da8850737e70
-. 8aaf101e623c543c7eef3c65f6233366
+. Cliquez sur *NSS Management > Ajouter un compte NSS*.
+. Lorsque vous y êtes invité, cliquez sur *Continuer* pour être redirigé vers une page de connexion Microsoft.
 +
-19d089db572ee6a1e154a0c9c9e57bfd
+NetApp utilise Microsoft Azure Active Directory comme fournisseur d'identités pour les services d'authentification spécifiques au support et aux licences.
 
-. 465ec6d5eafa3524c948c99d8bfcd306
+. Sur la page de connexion, indiquez l'adresse e-mail et le mot de passe que vous avez enregistrés sur le site de support NetApp pour réaliser le processus d'authentification.
 +
-cbc6cc3bb022583403171b447b2a962c
-
-+
-cf3a2d2c139bf5c9cc87fe714bfff3b1
+Ces actions permettent à BlueXP d'utiliser votre compte NSS pour des opérations telles que le téléchargement de licences, la vérification de la mise à niveau logicielle et les inscriptions de support futures.
 
 +
-** ec084bb25ed5b934c09b361069c246b2
-** 27387009488fe78dcc7cb7e3e432792f
-+
-d926847e4634e19a1aa7358becc0fa27
+Notez ce qui suit :
 
 +
-a04a3a5322782e8c18d0d64be7e1ccbc
-
-** 1afe8a81cfddc9fa9559e272bb6b9496
+** Le compte NSS doit être un compte de niveau client (pas un compte invité ou temporaire). Vous pouvez avoir plusieurs comptes NSS de niveau client.
+** Il ne peut y avoir qu'un seul compte NSS si ce compte est un compte de niveau partenaire. Si vous essayez d'ajouter des comptes NSS de niveau client et qu'un compte de niveau partenaire existe, le message d'erreur suivant s'affiche :
 +
-452cd4df7b0d5eb1156519a2f3b0206b
+"Le type de client NSS n'est pas autorisé pour ce compte car il existe déjà des utilisateurs NSS de type différent."
 
-** fd02e84624a2fdfd58787131aa2820b5
 +
-b14d512a3c64fb5df16f6721b0603c63
+Il en va de même si vous possédez des comptes NSS client préexistants et que vous essayez d'ajouter un compte de niveau partenaire.
+
+** Une fois la connexion établie, NetApp stockera le nom d'utilisateur NSS.
++
+Il s'agit d'un ID généré par le système qui correspond à votre courrier électronique. Sur la page *NSS Management*, vous pouvez afficher votre courriel à partir du image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"] menu.
+
+** Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *mettre à jour les informations d'identification* dans le image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"] menu.
++
+Cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.
 
 
 
@@ -109,78 +109,78 @@ b14d512a3c64fb5df16f6721b0603c63
 
 
 
-== ad56c7289bc13dcf4f78c285f7f03878
+== Inscrivez-vous auprès de NetApp
 
-f1bac79c2c71fbd93863b9fbd718094c
+Le fait de vous inscrire au support NetApp dépend de la présence ou non d'un compte sur le site de support NetApp (NSS).
 
 
 
-=== bf4c731c0ee7f60c8018ad8f96828dda
+=== Client existant avec un compte NSS
 
-7e177185e7eddff33dd8f3aeb7551132
+Si vous êtes client NetApp avec un compte NSS, il vous suffit de vous inscrire pour obtenir du support dans BlueXP.
 
 .Étapes
-. 1afe19576f77bb0073c93359ed2cbb18
+. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.
 +
-868d9aa88f16ea923af1d15eac5d2647
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
-. 25b94e7b58140f12be91fa8fd935fa59
-. 819aff12752b7e6a1828e755c7664de7
+. Si ce n'est déjà fait, ajoutez votre compte NSS à BlueXP.
+. Sur la page *Ressources*, cliquez sur *s'inscrire au support*.
 +
-113f9cd7bac6f4faa6b8d58e3e099a8e
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-register-support.png["Capture d'écran indiquant le numéro de série d'un compte et l'option Register pour le support"]
 
 
 
 
 
-=== 1ff5aefce774ec72a211f2b3bb10b950
+=== Client existant mais aucun compte NSS
 
-cc1d3c161bcf25e6445c2fc771647849
+Si vous êtes déjà client NetApp avec des licences et des numéros de série existants mais que _no_ NSS, il vous suffit de créer un compte NSS.
 
 .Étapes
-. 0c4a8b62da9473fbd5401273c4f85ee0
+. Créez un compte sur le site de support NetApp en complétant le https://mysupport.netapp.com/site/user/registration["Formulaire d'inscription de l'utilisateur du site de support NetApp"^]
 +
-.. d61c9f72493817776f392db42ac446a2
-.. 5226d4ec1f4f81b740cbbd27635b441f
+.. Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.
+.. Veillez à copier le numéro de série du compte BlueXP (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.
 
 
 
 
 
 
-=== e9b1f53d6cabb3394833a4e102eb6a69
+=== Découvrez la toute nouvelle gamme NetApp
 
-c20c107d0d4eef6351660f3590324232
+Si vous êtes nouveau chez NetApp et que vous ne disposez pas d'un compte NSS, effectuez chacune des étapes ci-dessous.
 
 .Étapes
-. 1afe19576f77bb0073c93359ed2cbb18
+. Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône aide et sélectionnez *support*.
 +
-868d9aa88f16ea923af1d15eac5d2647
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
-. 2974170a8b1b5b4a2ac69aacd4c1c9c3
+. Recherchez le numéro de série de l'ID de compte sur la page d'inscription au support.
 +
-ef5e63bb6b6827440a13cc2ec7e9cf56
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-serial-number.png["Capture d'écran du menu aide où support est la première option répertoriée"]
 
-. 78f94e749b89d69dcbf3baff21ccb958
-. d4f633ef130727b2776fa7f45024ca7d
-. 1128fc8d5ec64880f4d49337ed798d31
-. 50a1dc01b7312307c34a888071586955
+. Accédez à https://register.netapp.com["Site d'inscription au support NetApp"^] Et sélectionnez *je ne suis pas un client NetApp enregistré*.
+. Remplissez les champs obligatoires (ceux avec des astérisques rouges).
+. Dans le champ *Product Line*, sélectionnez *Cloud Manager*, puis votre fournisseur de facturation applicable.
+. Copiez le numéro de série de votre compte à l'étape 2 ci-dessus, vérifiez sa sécurité, puis lisez la Déclaration de confidentialité des données NetApp.
 +
-3a24c87c9971d2011b4df223718f84b4
+Un e-mail est immédiatement envoyé à la boîte aux lettres fournie pour finaliser cette transaction sécurisée. Assurez-vous de vérifier vos dossiers de courrier indésirable si l'e-mail de validation n'arrive pas dans quelques minutes.
 
-. 03413baeca1ff7222737d8ce299bd4e8
+. Confirmez l'action à partir de l'e-mail.
 +
-201080500e946070a2e4873042507c77
+La confirmation de la soumission de votre demande à NetApp et vous recommande de créer un compte sur le site de support NetApp.
 
-. 0c4a8b62da9473fbd5401273c4f85ee0
+. Créez un compte sur le site de support NetApp en complétant le https://mysupport.netapp.com/site/user/registration["Formulaire d'inscription de l'utilisateur du site de support NetApp"^]
 +
-.. d61c9f72493817776f392db42ac446a2
-.. cc8b0535948da368f832027c19b7f853
+.. Veillez à sélectionner le niveau d'utilisateur approprié, qui est généralement *client/utilisateur final NetApp*.
+.. Veillez à copier le numéro de série du compte (960xxxx) utilisé ci-dessus pour le champ Numéro de série. Le traitement du compte sera ainsi accéléré.
 
 
 
 
 .Une fois que vous avez terminé
-684375e279a289295b72a006d93e2c4c
+NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.
 
-1c0e45ef07d0dbc13ca2394d5e285fd7
+Une fois votre compte sur le site de support NetApp, vous pouvez accéder à BlueXP et ajouter ce compte NSS pour les inscriptions futures.

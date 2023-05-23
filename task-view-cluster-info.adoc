@@ -38,4 +38,4 @@ Une fois que vous avez identifié un cluster, il est disponible en tant qu'envir
 
 
 .Lien associé
-https://["Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP"^]
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP"^]

@@ -59,7 +59,7 @@ Avant de découvrir votre cluster ONTAP sur site, assurez-vous de répondre aux 
 
 * Vous devriez avoir commencé avec BlueXP, qui inclut la connexion et la configuration d'un compte.
 +
-69c4d579a506c05e94d3e4986ec536a3
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["Apprenez à vous lancer avec BlueXP"^]
 
 * Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.
 * BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.
@@ -78,9 +78,9 @@ La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à 
 Si vous voulez transférer les données inactives vers le cloud, consultez les conditions du connecteur en fonction de l'emplacement où vous prévoyez d'effectuer le Tiering des données inactives.
 
 +
-** da1264a616f156bd6836a85f7dfdea5a
-** 74d39f4b6fe0e32c5cfa2ed86891bf44
-** ab39f7f9b8000627309eae76de10963b
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs"^]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["Basculement entre les connecteurs"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Découvrez le Tiering BlueXP"^]
 
 
 * L'hôte du connecteur doit autoriser l'accès HTTPS sortant via le port 443.

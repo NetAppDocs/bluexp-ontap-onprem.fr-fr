@@ -207,11 +207,11 @@ image:screenshot-standard-view.png["Capture d'écran d'un environnement de trava
 
 === Obtenez de l'aide avec System Manager
 
-Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez voir https://["Documentation ONTAP"^] pour obtenir des instructions détaillées. Voici quelques liens utiles :
+Si vous avez besoin d'aide pour utiliser System Manager avec ONTAP, vous pouvez voir https://docs.netapp.com/us-en/ontap/index.html["Documentation ONTAP"^] pour obtenir des instructions détaillées. Voici quelques liens utiles :
 
-* https://["Gestion des volumes et des LUN"^]
-* https://["Gestion du réseau"^]
-* https://["Protection des données"^]
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Gestion des volumes et des LUN"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Gestion du réseau"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["Protection des données"^]
 
 
 
@@ -223,37 +223,37 @@ Intégrez les services de données BlueXP dans vos environnements de travail pou
 Réplication des données:: Répliquez les données entre les systèmes Cloud Volumes ONTAP, les systèmes de fichiers Amazon FSX pour ONTAP et les clusters ONTAP. Choisissez une réplication unique des données, qui peut vous aider à déplacer vos données depuis et vers le cloud, ou un calendrier récurrent, qui peut vous aider à effectuer une reprise d'activité ou la conservation des données à long terme.
 +
 --
-5f87e564b371518f04853fd701600836
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["La documentation relative à la réplication"^]
 
 --
 Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud.
 +
 --
-6645031c9d411c3036d45429e7b9b169
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Documentation sur la sauvegarde et la restauration"^]
 
 --
 Scannez, cartographier et classez vos données:: Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
 +
 --
-4f24a5d25954834b6fff1a00bf7ad8e8
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Documentation de classification"^]
 
 --
 Basculez les données vers le cloud:: Étendez votre data Center au cloud en transférant automatiquement les données inactives des clusters ONTAP au stockage objet.
 +
 --
-4be55bddfe0135eea0cb86495548cff5
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Documentation sur la hiérarchisation"^]
 
 --
 Maintenez l'intégrité, la disponibilité et les performances:: Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.
 +
 --
-https://["Documentation sur la résilience opérationnelle"^]
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["Documentation sur la résilience opérationnelle"^]
 
 --
 Identifiez les clusters ayant une capacité faible:: Identifiez les clusters affichant une faible capacité, examinez les clusters pour vérifier leur capacité actuelle et prévue, etc.
 +
 --
-https://["Documentation sur l'efficacité économique"^]
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["Documentation sur l'efficacité économique"^]
 
 --
 
