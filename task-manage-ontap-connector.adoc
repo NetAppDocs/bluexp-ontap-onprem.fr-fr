@@ -223,25 +223,25 @@ Intégrez les services de données BlueXP dans vos environnements de travail pou
 Réplication des données:: Répliquez les données entre les systèmes Cloud Volumes ONTAP, les systèmes de fichiers Amazon FSX pour ONTAP et les clusters ONTAP. Choisissez une réplication unique des données, qui peut vous aider à déplacer vos données depuis et vers le cloud, ou un calendrier récurrent, qui peut vous aider à effectuer une reprise d'activité ou la conservation des données à long terme.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["La documentation relative à la réplication"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["La documentation relative à la réplication"^]
 
 --
 Sauvegarder les données:: Sauvegardez les données de votre système ONTAP sur site vers un stockage objet économique dans le cloud.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Documentation sur la sauvegarde et la restauration"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["Documentation sur la sauvegarde et la restauration"^]
 
 --
 Scannez, cartographier et classez vos données:: Analysez les clusters de votre entreprise sur site pour cartographier et classer les données, et identifier les informations privées. Cela peut réduire les risques liés à la sécurité et à la conformité, diminuer les coûts de stockage et vous aider dans vos projets de migration des données.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Documentation de classification"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Documentation de classification"^]
 
 --
 Basculez les données vers le cloud:: Étendez votre data Center au cloud en transférant automatiquement les données inactives des clusters ONTAP au stockage objet.
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Documentation sur la hiérarchisation"^]
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Documentation sur la hiérarchisation"^]
 
 --
 Maintenez l'intégrité, la disponibilité et les performances:: Appliquez les mesures correctives suggérées aux clusters ONTAP avant une panne ou une panne.
