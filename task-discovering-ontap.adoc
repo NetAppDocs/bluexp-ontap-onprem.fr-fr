@@ -121,6 +121,9 @@ Découvrez vos clusters ONTAP sur site à partir de la console Canevas de BlueXP
 Si vous sélectionnez cette option, vous n'aurez pas besoin de saisir à nouveau les informations d'identification chaque fois que vous ouvrirez l'environnement de travail. Ces identifiants sont uniquement associés à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.
 
 . Sélectionnez *découvrir*.
++
+Si vous ne disposez pas de connecteur et que l'adresse IP n'est pas accessible depuis BlueXP, vous êtes invité à créer un connecteur.
+
 
 
 .Résultat
