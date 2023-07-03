@@ -15,7 +15,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">De formation</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">Si vous voulez transférer les données inactives vers le cloud, consultez les conditions du connecteur en fonction de l'emplacement où vous prévoyez d'effectuer le Tiering des données inactives.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">En savoir plus sur les connecteurs</block>
-  <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">Basculement entre les connecteurs</block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">L'hôte du connecteur doit autoriser l'accès HTTPS sortant via le port 443.</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Si le connecteur est dans le Cloud, toutes les communications sortantes sont autorisées par le groupe de sécurité prédéfini.</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à partir de toutes les adresses IP. Si vous avez modifié cette stratégie par défaut ou si vous avez créé votre propre stratégie de pare-feu, vous devez associer le protocole HTTPS à cette politique et activer l'accès à partir de l'hôte du connecteur.</block>
@@ -160,15 +159,11 @@
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">Afficher les informations sur le cluster et les détails du contrat</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">Découvrez les clusters ONTAP sur site</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">Options de découverte et de gestion</block>
-  <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP offre deux façons de découvrir et de gérer vos clusters ONTAP sur site :</block>
-  <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">Découverte via un connecteur</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">La vue Standard, qui fournit les opérations de base du volume</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">Un connecteur doit être installé dans un fournisseur cloud ou sur site.</block>
-  <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">Découverte directe</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">Une fois découverts, vos clusters sont disponibles sous forme d'environnement de travail sur BlueXP Canvas.</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">Vous devriez avoir commencé avec BlueXP, qui inclut la connexion et la configuration d'un compte.</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">Apprenez à vous lancer avec BlueXP</block>
-  <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">Sur la page Canevas, cliquez sur *Ajouter un environnement de travail* et sélectionnez *sur site*.</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">Gérez les clusters ONTAP sur site détectés à l'aide d'un connecteur</block>
@@ -236,7 +231,6 @@
   <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">Un onglet « ONTAP sur site » est disponible dans le portefeuille numérique</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">Copie d'écran affichant l'invite de saisie du nom d'utilisateur et du mot de passe d'un cluster ONTAP.</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">Cette option vous permet de gérer les clusters qui exécutent ONTAP 9.12.1 et versions ultérieures via System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services de données.</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">Le cluster sur site doit exécuter ONTAP 8.3 ou une version ultérieure.</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">Cette option vous permet de gérer les clusters qui exécutent ONTAP 8.3 et versions ultérieures à l'aide des fonctionnalités suivantes :</block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">À côté de ONTAP sur place, sélectionnez *découvrir*.</block>
@@ -244,17 +238,10 @@
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">Cette option requiert un connecteur que vous pouvez installer dans un fournisseur cloud ou sur site.</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">Cette option ne nécessite pas de connecteur.</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">Lorsque vous accédez à System Manager sur un cluster ONTAP sur site fonctionnant sous 9.12.1 ou version ultérieure et connecté au service BlueXP, vous êtes invité à gérer le cluster directement à partir de BlueXP. Si vous suivez cette invite, il détecte le cluster dans BlueXP à l'aide de l'option de détection directe.</block>
-  <block id="0f7cd5e1a723722aba147a095960b6f2" category="paragraph">Avant de découvrir votre cluster ONTAP sur site, assurez-vous de répondre aux exigences suivantes.</block>
   <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">Exigences générales</block>
-  <block id="57e3bd92879e52aabb2d704d581a7eca" category="section-title">Conditions requises pour la détection et la gestion des connecteurs</block>
-  <block id="474308686741d3fac3585fee76ea82cb" category="section-title">Conditions requises pour la découverte et la gestion directes</block>
-  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">Découvrir les clusters</block>
-  <block id="16708274774701d9897c9865da185258" category="paragraph">Découvrez vos clusters ONTAP sur site à partir de la console Canevas de BlueXP. Lorsque vous démarrez le processus de détection, BlueXP découvre le cluster comme suit :</block>
-  <block id="a1a1b3734bc79dc28eff3fad266ee579" category="list-text">Si vous disposez d'un connecteur actif qui dispose d'une connexion à votre cluster ONTAP, BlueXP utilisera ce connecteur pour détecter et gérer le cluster.</block>
   <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">Si vous ne disposez pas d'un connecteur ou si votre connecteur ne dispose pas d'une connexion au cluster ONTAP, BlueXP utilise automatiquement l'option de détection et de gestion directes.</block>
   <block id="1de006c684d29369fa4392137f9a3894" category="list-text">Sur la page _Discover_, entrez l'adresse IP de gestion du cluster et le mot de passe du compte utilisateur admin.</block>
   <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">Si vous découvrez le cluster directement (sans connecteur), vous pouvez sélectionner *Enregistrer les informations d'identification*.</block>
-  <block id="da8239e44e04f0173e627074f8abe90c" category="paragraph">Si vous sélectionnez cette option, vous n'aurez pas besoin de saisir à nouveau les informations d'identification chaque fois que vous ouvrirez l'environnement de travail. Ces identifiants sont uniquement associés à votre utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par quelqu'un d'autre de votre compte.</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">Sélectionnez *découvrir*.</block>
   <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la toile. Vous pouvez maintenant commencer à gérer le cluster.</block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">Découvrez comment gérer les clusters découverts directement</block>
@@ -302,7 +289,6 @@
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">Détectez les clusters ONTAP sur site à partir de BlueXP pour commencer à gérer les volumes et effectuer des tâches de gestion avancées à l'aide de ONTAP System Manager, disponible via BlueXP.</block>
-  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">Intégration avec les services BlueXP, qui assurent la réplication, la sauvegarde et la restauration, la classification des données et le Tiering des données</block>
   <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">Découvrez le Tiering BlueXP</block>
   <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">Gérez vos systèmes NetApp AFF et FAS à partir de BlueXP pour provisionner le stockage, répliquer les données et configurer les services de données cloud stratégiques.</block>
   <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP Digital Advisor vous permet d'optimiser les opérations, la sécurité et les performances de vos clusters ONTAP.</block>
@@ -473,7 +459,6 @@
   <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
   <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="paragraph"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
   <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
-  <block id="2aeeba0020a7848f7902186fbd8cb9e8" category="list-text"><block ref="2aeeba0020a7848f7902186fbd8cb9e8" category="inline-link-rx"></block></block>
   <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
   <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>.</block>
@@ -521,4 +506,46 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'association des informations d'identification NSS à votre compte BlueXP est différente du compte NSS associé à une connexion utilisateur BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Ces informations d'identification NSS sont associées à votre ID de compte BlueXP spécifique. Les utilisateurs qui appartiennent au compte BlueXP peuvent accéder à ces informations d'identification depuis *support &gt; gestion NSS*.</block>
   <block id="37ec2d4ffcb59f0218e30feb37bff04e" category="paragraph">Si vous ne disposez pas de connecteur et que l'adresse IP n'est pas accessible depuis BlueXP, vous êtes invité à créer un connecteur.</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2 juillet 2023</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">Découverte de clusters dans My Estate</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">Vous pouvez désormais détecter les clusters ONTAP sur site à partir de *Canvas &gt; My Estate* en sélectionnant un cluster que BlueXP a prédécouvert en fonction des clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP.</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">Découvrez comment découvrir des clusters sur la page My Estate</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>.</block>
+  <block id="0955e7586176682941c1bba912eb5cc4" category="paragraph">BlueXP propose deux options de détection et de gestion pour les clusters ONTAP sur site :</block>
+  <block id="58bc91c6986031a5bbfcc403ec8f4e40" category="list-text">Détection et gestion à l'aide d'un connecteur</block>
+  <block id="c0dfb4f052c58a84c6f41e4a6de3caae" category="list-text">Intégration avec les services BlueXP pour la réplication, la sauvegarde et la restauration, la classification des données et le Tiering des données</block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">Découverte et gestion directes</block>
+  <block id="551bc5d8466ddd3cdacf44099db1c7ab" category="list-text">Cette option vous permet de gérer les clusters qui exécutent ONTAP 9.12.1 et versions ultérieures via System Manager. Aucune autre option de gestion n'est disponible. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services BlueXP.</block>
+  <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">Avant de découvrir vos clusters ONTAP sur site, assurez-vous de répondre aux exigences suivantes.</block>
+  <block id="860b5a921910be87e98249197300aeb3" category="section-title">Conditions requises pour la découverte des connecteurs</block>
+  <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">Découvrez comment basculer entre plusieurs connecteurs</block>
+  <block id="80cc9f0ae996b19f3dc87ec1e851b9fc" category="list-text"><block ref="80cc9f0ae996b19f3dc87ec1e851b9fc" category="inline-link-rx"></block></block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="section-title">Conditions requises pour la découverte directe</block>
+  <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">Découvrir un cluster</block>
+  <block id="5929920680ed1fe51a421ba27720d080" category="paragraph">Découvrez vos clusters ONTAP sur site à partir de la zone de travail en fournissant manuellement des informations sur le cluster ou en sélectionnant un cluster prédétecté sur la page My Estate.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">Description de la tâche</block>
+  <block id="b5dd4f91cc6db2ca2f45e3bb102fb889" category="list-text">Vous pouvez lancer le processus de découverte de deux manières :</block>
+  <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">Dans *Canvas &gt; Mes environnements de travail* en ajoutant manuellement des détails sur le cluster ONTAP sur site.</block>
+  <block id="a5c0c470fe95d7a64c3b5fcb2a94828e" category="list-text">Dans *Canvas &gt; My Estate* en sélectionnant un cluster que BlueXP a prédécouvert en fonction des clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP.</block>
+  <block id="2e064277badcd21c62e8fd2c2f433487" category="list-text">Lorsque vous démarrez le processus de détection, BlueXP détecte un cluster comme suit :</block>
+  <block id="070663698acc2c2608384f63852f1471" category="list-text">Si vous disposez d'un connecteur actif qui dispose d'une connexion à un cluster ONTAP, BlueXP utilisera ce connecteur pour détecter et gérer le cluster.</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="section-title">Détection manuelle d'un cluster</block>
+  <block id="8c3cbd392f1e7d6c008b581f7fc4fc9b" category="paragraph">Découvrez un cluster ONTAP sur site dans BlueXP en entrant l'adresse IP de gestion du cluster et le mot de passe du compte utilisateur admin.</block>
+  <block id="4e206327ecb5a9834b615078326acaec" category="list-text">Sur la page Canevas, sélectionnez *Ajouter un environnement de travail &gt; sur site*.</block>
+  <block id="744a5b98e0d4825f191a9e89b609949c" category="paragraph">Si vous sélectionnez cette option, vous n'aurez pas besoin de saisir à nouveau les informations d'identification chaque fois que vous ouvrirez l'environnement de travail. Ces identifiants sont uniquement associés à votre connexion utilisateur BlueXP. Elles ne sont pas sauvegardées pour être utilisées par quiconque dans le compte BlueXP.</block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="section-title">Ajoutez un cluster prédécouvert</block>
+  <block id="9531ad82bf5dc45f66f60a601474ec73" category="paragraph">BlueXP détecte automatiquement les informations sur les clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP et les affiche sur la page *mon patrimoine* en tant que clusters non découverts. Vous pouvez afficher la liste des clusters non détectés et les ajouter un par un.</block>
+  <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">Notez les points suivants concernant les clusters ONTAP sur site qui apparaissent sur la page My Estate :</block>
+  <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">L'adresse e-mail que vous utilisez pour vous connecter à BlueXP doit être associée à un compte NSS (NetApp support site) de niveau complet enregistré.</block>
+  <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">Si vous vous connectez à BlueXP avec votre compte NSS et accédez à la page My Estate, BlueXP utilise ce compte NSS pour rechercher les clusters associés au compte.</block>
+  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">Si vous vous connectez à BlueXP avec un compte cloud et accédez à la page My Estate, BlueXP vous invite à vérifier votre e-mail. Si cette adresse e-mail est associée à un compte NSS, BlueXP utilise ces informations pour rechercher les clusters associés au compte.</block>
+  <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP affiche uniquement les clusters ONTAP qui ont envoyé des messages AutoSupport à NetApp avec succès.</block>
+  <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">Pour actualiser la liste d'inventaire, quittez la page Ma succession, attendez 5 minutes, puis revenez à la page.</block>
+  <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">Sélectionnez *Ma succession*.</block>
+  <block id="ff24e889350068d5df46c75b1da1f5af" category="list-text">Sur la page Ma succession, sélectionnez *découvrir* pour ONTAP sur site.</block>
+  <block id="eb0bc6fee7fc89460407cbab71c71faf" category="inline-image-macro">Capture d'écran de la page My Estate montrant 12 clusters ONTAP sur site non découverts.</block>
+  <block id="9ea83282503d3d948b041ef70d87101f" category="paragraph"><block ref="9ea83282503d3d948b041ef70d87101f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">Sélectionnez un cluster, puis sélectionnez *Discover*.</block>
+  <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">Entrez le mot de passe du compte utilisateur admin.</block>
 </blocks>

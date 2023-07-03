@@ -18,6 +18,18 @@ Découvrez les nouveautés de la gestion des clusters ONTAP sur site dans BlueXP
 
 
 
+== 2 juillet 2023
+
+
+
+=== Découverte de clusters dans My Estate
+
+Vous pouvez désormais détecter les clusters ONTAP sur site à partir de *Canvas > My Estate* en sélectionnant un cluster que BlueXP a prédécouvert en fonction des clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["Découvrez comment découvrir des clusters sur la page My Estate"].
+
+
+
 == 4 mai 2023
 
 
