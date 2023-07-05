@@ -162,7 +162,7 @@ Notez les points suivants concernant les clusters ONTAP sur site qui apparaissen
 * L'adresse e-mail que vous utilisez pour vous connecter à BlueXP doit être associée à un compte NSS (NetApp support site) de niveau complet enregistré.
 +
 ** Si vous vous connectez à BlueXP avec votre compte NSS et accédez à la page My Estate, BlueXP utilise ce compte NSS pour rechercher les clusters associés au compte.
-** Si vous vous connectez à BlueXP avec un compte cloud et accédez à la page My Estate, BlueXP vous invite à vérifier votre e-mail. Si cette adresse e-mail est associée à un compte NSS, BlueXP utilise ces informations pour rechercher les clusters associés au compte.
+** Si vous vous connectez à BlueXP avec un compte cloud ou une connexion fédérée et que vous accédez à la page My Estate, BlueXP vous invite à vérifier votre e-mail. Si cette adresse e-mail est associée à un compte NSS, BlueXP utilise ces informations pour rechercher les clusters associés au compte.
 
 
 * BlueXP affiche uniquement les clusters ONTAP qui ont envoyé des messages AutoSupport à NetApp avec succès.

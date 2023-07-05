@@ -537,7 +537,6 @@
   <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">Notez les points suivants concernant les clusters ONTAP sur site qui apparaissent sur la page My Estate :</block>
   <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">L'adresse e-mail que vous utilisez pour vous connecter à BlueXP doit être associée à un compte NSS (NetApp support site) de niveau complet enregistré.</block>
   <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">Si vous vous connectez à BlueXP avec votre compte NSS et accédez à la page My Estate, BlueXP utilise ce compte NSS pour rechercher les clusters associés au compte.</block>
-  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">Si vous vous connectez à BlueXP avec un compte cloud et accédez à la page My Estate, BlueXP vous invite à vérifier votre e-mail. Si cette adresse e-mail est associée à un compte NSS, BlueXP utilise ces informations pour rechercher les clusters associés au compte.</block>
   <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP affiche uniquement les clusters ONTAP qui ont envoyé des messages AutoSupport à NetApp avec succès.</block>
   <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">Pour actualiser la liste d'inventaire, quittez la page Ma succession, attendez 5 minutes, puis revenez à la page.</block>
   <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">Sélectionnez *Ma succession*.</block>
@@ -548,4 +547,5 @@
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">Entrez le mot de passe du compte utilisateur admin.</block>
   <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">Gestion des clusters ONTAP sur site à l'aide de BlueXP</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">Si vous vous connectez à BlueXP avec un compte cloud ou une connexion fédérée et que vous accédez à la page My Estate, BlueXP vous invite à vérifier votre e-mail. Si cette adresse e-mail est associée à un compte NSS, BlueXP utilise ces informations pour rechercher les clusters associés au compte.</block>
 </blocks>
