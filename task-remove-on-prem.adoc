@@ -19,10 +19,10 @@ Supprimer un environnement de travail ONTAP sur site si vous ne souhaitez plus l
 La suppression de l'environnement de travail n'affecte pas le cluster ONTAP. Vous pouvez le redécouvrir depuis BlueXP à tout moment.
 
 .Étapes
-. Sur la page Canevas, double-cliquez sur le nom de l'environnement de travail ONTAP sur site.
-. Cliquez sur l'icône de menu et sélectionnez *Supprimer de l'espace de travail*.
+. Sur la page Canevas, sélectionnez l'environnement de travail ONTAP sur site.
+. Sélectionnez l'icône de menu et sélectionnez *Supprimer de l'espace de travail*.
 +
 image:screenshot_remove_onprem.png["Capture d'écran affichant le menu en haut à droite de la page et l'option Supprimer."]
 
-. Cliquez sur *Supprimer* pour confirmer.
+. Sélectionnez *Supprimer* pour confirmer.
 
