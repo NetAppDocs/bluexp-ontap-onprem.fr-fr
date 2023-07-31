@@ -525,7 +525,6 @@
   <block id="87377698a8dca305b9579a13060142f2" category="section-title">Créer des volumes FlexGroup</block>
   <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">Si vous gérez un cluster avec un connecteur, vous pouvez maintenant créer des volumes FlexGroup à l'aide de l'API BlueXP.</block>
   <block id="ca513b668252beaae65808764fc2388f" category="inline-link">Découvrez comment créer un volume FlexGroup</block>
-  <block id="6fbac88fa8db3a2a67d5495cb1dcacd2" category="list-text"><block ref="6fbac88fa8db3a2a67d5495cb1dcacd2" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">Découvrez ce qu'est un volume FlexGroup</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
   <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">Sur la page Canevas, sélectionnez l'environnement de travail ONTAP sur site.</block>
@@ -556,4 +555,5 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">Modifiez les colonnes qui apparaissent dans le tableau en sélectionnant <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> puis choisissez les colonnes que vous souhaitez afficher.</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">Gérer un dossier existant en sélectionnant <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> et en sélectionnant l'une des options disponibles :</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*Fermer le cas* : fournissez des détails sur la raison pour laquelle vous fermez le cas et sélectionnez *Fermer le cas*.</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
 </blocks>
