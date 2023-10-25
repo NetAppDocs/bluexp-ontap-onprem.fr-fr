@@ -4,7 +4,7 @@ permalink: concept-onprem-ontap.html
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
 summary: 'BlueXP peut détecter les clusters ONTAP s"exécutant sur des contrôleurs AFF/FAS et sur ONTAP Select. L"ajout de systèmes ONTAP sur site à BlueXP vous permet de gérer l"ensemble de vos ressources de stockage et de données à partir d"une seule interface.' 
 ---
-= Gestion des clusters ONTAP sur site à partir de BlueXP
+= Découvrez la gestion des clusters ONTAP sur site dans BlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

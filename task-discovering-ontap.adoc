@@ -18,7 +18,7 @@ Détectez les clusters ONTAP sur site à partir de BlueXP pour commencer à gér
 
 
 
-== Options de découverte et de gestion
+== Étape 1 : passez en revue les options de découverte et de gestion
 
 BlueXP propose deux options de détection et de gestion pour les clusters ONTAP sur site :
 
@@ -49,18 +49,15 @@ Si vous décidez d'utiliser l'autre option de détection ultérieurement, vous d
 
 
 
-== De formation
+== Étape 2 : configuration de votre environnement
 
 Avant de découvrir vos clusters ONTAP sur site, assurez-vous de répondre aux exigences suivantes.
 
-
-
-=== Exigences générales
-
-* Vous devriez avoir commencé avec BlueXP, qui inclut la connexion et la configuration d'un compte.
+Exigences générales::
 +
+--
+* Vous devriez avoir commencé avec BlueXP, qui inclut la connexion et la configuration d'un compte.
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Apprenez à vous lancer avec BlueXP"^]
-
 * Vous avez besoin de l'adresse IP de gestion du cluster et du mot de passe du compte utilisateur admin.
 * BlueXP détecte les clusters ONTAP via HTTPS. Si vous utilisez des politiques de pare-feu personnalisées, le cluster ONTAP doit autoriser l'accès HTTPS entrant via le port 443.
 +
@@ -68,10 +65,10 @@ La stratégie de pare-feu " mgmt " par défaut permet l'accès HTTPS entrant à 
 
 
 
-
-
-=== Conditions requises pour la découverte des connecteurs
-
+--
+Conditions requises pour la découverte des connecteurs::
++
+--
 * Le cluster sur site doit exécuter ONTAP 8.3 ou une version ultérieure.
 * Un connecteur doit être installé dans un fournisseur cloud ou sur site.
 +
@@ -83,16 +80,16 @@ Si vous voulez transférer les données inactives vers le cloud, consultez les c
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Découvrez le Tiering BlueXP"^]
 
 
-* L'hôte du connecteur doit autoriser l'accès HTTPS sortant via le port 443.
+* Le connecteur hôte doit autoriser les connexions sortantes via le port 443 (HTTPS) et le cluster ONTAP doit autoriser l'accès HTTP entrant via le port 443.
 +
 Si le connecteur est dans le Cloud, toutes les communications sortantes sont autorisées par le groupe de sécurité prédéfini.
 
 
 
-
-
-=== Conditions requises pour la découverte directe
-
+--
+Conditions requises pour la découverte directe::
++
+--
 * Le cluster sur site doit exécuter ONTAP 9.12.1 ou une version ultérieure.
 * Le cluster doit disposer d'une connectivité entrante et sortante vers le service BlueXP :
 +
@@ -101,31 +98,29 @@ Si le connecteur est dans le Cloud, toutes les communications sortantes sont aut
 * L'ordinateur que vous utilisez pour accéder à la console BlueXP doit disposer d'une connexion réseau au cluster ONTAP sur site, de la même manière que vous pouvez fournir des connexions à d'autres ressources de votre réseau privé.
 
 
-
-
-== Découvrir un cluster
-
-Découvrez vos clusters ONTAP sur site à partir de la zone de travail en fournissant manuellement des informations sur le cluster ou en sélectionnant un cluster prédétecté sur la page My Estate.
-
-.Description de la tâche
-* Vous pouvez lancer le processus de découverte de deux manières :
-+
-** Dans *Canvas > Mes environnements de travail* en ajoutant manuellement des détails sur le cluster ONTAP sur site.
-** Dans *Canvas > My Estate* en sélectionnant un cluster que BlueXP a prédécouvert en fonction des clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP.
-
-
-* Lorsque vous démarrez le processus de détection, BlueXP détecte un cluster comme suit :
-+
-** Si vous disposez d'un connecteur actif qui dispose d'une connexion à un cluster ONTAP, BlueXP utilisera ce connecteur pour détecter et gérer le cluster.
-** Si vous ne disposez pas d'un connecteur ou si votre connecteur ne dispose pas d'une connexion au cluster ONTAP, BlueXP utilise automatiquement l'option de détection et de gestion directes.
+--
 
 
 
 
+== Étape 3 : découverte d'un cluster
+
+Découvrez vos clusters ONTAP sur site depuis la Canvas de deux manières :
+
+* Dans *Canvas > Mes environnements de travail* en ajoutant manuellement des détails sur le cluster ONTAP sur site.
+* Dans *Canvas > My Estate* en sélectionnant un cluster que BlueXP a prédécouvert en fonction des clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP.
 
 
-=== Détection manuelle d'un cluster
+Lorsque vous démarrez le processus de détection, BlueXP détecte un cluster comme suit :
 
+* Si vous disposez d'un connecteur actif qui dispose d'une connexion à un cluster ONTAP, BlueXP utilisera ce connecteur pour détecter et gérer le cluster.
+* Si vous ne disposez pas d'un connecteur ou si votre connecteur ne dispose pas d'une connexion au cluster ONTAP, BlueXP utilise automatiquement l'option de détection et de gestion directes.
+
+
+[role="tabbed-block"]
+====
+.Détection manuelle d'un cluster
+--
 Découvrez un cluster ONTAP sur site dans BlueXP en entrant l'adresse IP de gestion du cluster et le mot de passe du compte utilisateur admin.
 
 .Étapes
@@ -150,10 +145,9 @@ BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la
 * link:task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un connecteur"]
 
 
-
-
-=== Ajoutez un cluster prédécouvert
-
+--
+.Ajoutez un cluster prédécouvert
+--
 BlueXP détecte automatiquement les informations sur les clusters ONTAP associés à l'adresse e-mail de votre connexion BlueXP et les affiche sur la page *mon patrimoine* en tant que clusters non découverts. Vous pouvez afficher la liste des clusters non détectés et les ajouter un par un.
 
 .Description de la tâche
@@ -193,3 +187,6 @@ BlueXP découvre le cluster et l'ajoute comme un environnement de travail sur la
 * link:task-manage-ontap-direct.html["Découvrez comment gérer les clusters découverts directement"]
 * link:task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un connecteur"]
 
+
+--
+====

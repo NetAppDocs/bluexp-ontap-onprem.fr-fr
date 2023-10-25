@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
-summary: 'Si vous avez besoin d"effectuer une gestion avancée d"un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l"interface System Manager directement dans BlueXP afin que vous n"ayez pas besoin de laisser BlueXP pour une gestion avancée.' 
+summary: 'Si vous avez découvert un cluster ONTAP sur site à l"aide d"un connecteur, vous pouvez créer des volumes à partir de la vue Standard, utiliser System Manager depuis la vue avancée et activer les services de données BlueXP.' 
 ---
-= Gérez les clusters ONTAP sur site détectés à l'aide d'un connecteur
+= Gérer les clusters découverts avec un connecteur
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -128,7 +128,7 @@ Ensuite, le nouveau volume est ajouté à l'environnement de travail.
 
 Par ailleurs, si une action secondaire est implémentée dans le modèle, par exemple pour l'activation de la sauvegarde et de la restauration BlueXP sur le volume, cette action est également exécutée.
 
-.Une fois que vous avez terminé
+.Et la suite ?
 Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.
 
 
@@ -143,7 +143,7 @@ Vous pouvez utiliser l'API BlueXP pour créer des volumes FlexGroup. Les volumes
 
 
 
-== Administrer ONTAP à l'aide de la vue avancée
+== Administration de ONTAP à l'aide de l'affichage avancé (System Manager)
 
 Si vous avez besoin d'effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l'interface System Manager directement dans BlueXP afin que vous n'ayez pas besoin de laisser BlueXP pour une gestion avancée.
 
@@ -195,7 +195,7 @@ link:reference-limitations.html["Consultez la liste des limites"].
 
 
 
-=== Utilisation de l'affichage avancé (System Manager)
+=== Utilisez la vue avancée
 
 Ouvrez un environnement de travail ONTAP sur site et sélectionnez l'option vue avancée.
 
