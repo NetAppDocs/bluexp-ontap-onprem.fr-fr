@@ -34,15 +34,13 @@ Une fois que vous avez découvert votre cluster ONTAP sur site à partir de Blue
 
 BlueXP vous permet de créer des volumes NFS ou CIFS sur des agrégats existants. Il est impossible de créer de nouveaux agrégats sur un cluster ONTAP sur site à partir de la vue standard BlueXP. Vous devez utiliser la vue avancée pour créer des agrégats.
 
-La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous <<Créer des volumes à partir de modèles,procédure à suivre>>.
-
 .Étapes
 . Dans le menu de navigation, sélectionnez *stockage > Canvas*.
 . Sur la page Canevas, sélectionnez le cluster ONTAP sur site sur lequel vous souhaitez provisionner des volumes.
 . Sélectionnez *volumes > Ajouter un volume*.
 . Suivez les étapes de l'assistant pour créer le volume.
 +
-.. *Détails, protection et étiquettes* : saisissez des détails sur le volume comme son nom et sa taille, choisissez une stratégie Snapshot et spécifiez des balises de volume, si vous le souhaitez.
+.. *Détails, protection et balises* : saisissez des détails sur le volume comme son nom et sa taille, puis choisissez une règle Snapshot.
 +
 Certains des champs de cette page sont explicites. La liste suivante décrit les champs pour lesquels vous pourriez avoir besoin de conseils :
 
@@ -80,56 +78,6 @@ La liste suivante décrit les champs pour lesquels vous pourriez avoir besoin de
 
 
 
-
-
-
-=== Créer des volumes à partir de modèles
-
-Si votre entreprise a créé des modèles de volume ONTAP sur site pour permettre de déployer des volumes optimisés pour répondre aux exigences de workloads pour certaines applications, suivez les étapes de cette section.
-
-Le modèle devrait faciliter votre travail car certains paramètres de volume seront déjà définis dans le modèle, tels que le type de disque, la taille, le protocole, la stratégie d'instantané, etc. Lorsqu'un paramètre est déjà prédéfini, il vous suffit de passer au paramètre de volume suivant.
-
-
-NOTE: Vous pouvez créer des volumes NFS ou CIFS uniquement lors de l'utilisation de modèles.
-
-.Étapes
-. Sur la page Canevas, sélectionnez le cluster ONTAP sur site sur lequel vous souhaitez provisionner des volumes.
-. Sélectionnez image:screenshot_gallery_options.gif["Une icône avec trois points."] > *Ajouter un volume à partir du modèle*.
-+
-image:screenshot_template_add_vol_ontap.png["Capture d'écran indiquant comment ajouter un nouveau volume à partir d'un modèle."]
-
-. Dans la page _Select Template_, sélectionnez le modèle que vous souhaitez utiliser pour créer le volume et sélectionnez *Next*.
-+
-image:screenshot_select_template_ontap.png["Capture d'écran des modèles d'application disponibles."]
-
-+
-La page _Define Parameters_ s'affiche.
-
-+
-image:screenshot_define_ontap_vol_from_template.png["Capture d'écran montrant un modèle vierge que vous devez remplir pour créer un volume."]
-
-+
-*Note:* vous pouvez cocher la case *Afficher les paramètres en lecture seule* pour afficher tous les champs verrouillés par le modèle si vous voulez voir les valeurs de ces paramètres. Par défaut, ces champs prédéfinis sont masqués et seuls les champs à compléter sont affichés.
-
-. Dans la zone _context_, l'environnement de travail est rempli avec le nom de l'environnement de travail avec lequel vous avez commencé. Vous devez sélectionner la *VM de stockage* et *agrégat* où le volume sera créé.
-. Ajoutez des valeurs pour tous les paramètres qui ne sont pas codés en dur à partir du modèle.
-+
-<<Créer des volumes,Découvrez les paramètres nécessaires à la création du volume>>.
-
-. Sélectionnez *Exécuter le modèle* après avoir défini tous les paramètres nécessaires pour ce volume.
-
-
-.Résultat
-BlueXP provisionne le volume et affiche une page pour vous permettre de voir la progression.
-
-image:screenshot_template_creating_resource_ontap.png["Capture d'écran indiquant la progression de la création de votre nouveau volume à partir du modèle."]
-
-Ensuite, le nouveau volume est ajouté à l'environnement de travail.
-
-Par ailleurs, si une action secondaire est implémentée dans le modèle, par exemple pour l'activation de la sauvegarde et de la restauration BlueXP sur le volume, cette action est également exécutée.
-
-.Et la suite ?
-Si vous avez provisionné un partage CIFS, donnez aux utilisateurs ou aux groupes des autorisations sur les fichiers et les dossiers et vérifiez que ces utilisateurs peuvent accéder au partage et créer un fichier.
 
 
 

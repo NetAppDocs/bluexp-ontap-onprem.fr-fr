@@ -18,6 +18,16 @@ Découvrez les nouveautés de la gestion des clusters ONTAP sur site dans BlueXP
 
 
 
+== 22 avril 2024
+
+
+
+=== Les modèles de volume ne sont plus pris en charge
+
+Vous ne pouvez plus créer de volume à partir d'un modèle. Cette action a été associée au service de correction BlueXP, qui n'est plus disponible.
+
+
+
 == 30 juillet 2023
 
 
