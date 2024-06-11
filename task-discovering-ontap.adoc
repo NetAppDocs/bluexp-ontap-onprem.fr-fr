@@ -76,7 +76,7 @@ Si vous voulez transférer les données inactives vers le cloud, consultez les c
 
 +
 ** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["En savoir plus sur les connecteurs"^]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["Découvrez comment basculer entre plusieurs connecteurs"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html["Découvrez comment basculer entre plusieurs connecteurs"^]
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Découvrez le Tiering BlueXP"^]
 
 
