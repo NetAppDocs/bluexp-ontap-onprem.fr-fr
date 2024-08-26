@@ -80,7 +80,7 @@ Si vous voulez transférer les données inactives vers le cloud, consultez les c
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Découvrez le Tiering BlueXP"^]
 
 
-* Le connecteur hôte doit autoriser les connexions sortantes via le port 443 (HTTPS) et le cluster ONTAP doit autoriser l'accès HTTP entrant via le port 443.
+* Le connecteur hôte doit autoriser des connexions sortantes via le port 443 (HTTPS) et le cluster ONTAP doit autoriser un accès HTTP entrant via le port 443 à la LIF de cluster management.
 +
 Si le connecteur est dans le Cloud, toutes les communications sortantes sont autorisées par le groupe de sécurité prédéfini.
 
