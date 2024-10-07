@@ -130,7 +130,7 @@ Découvrez un cluster ONTAP sur site dans BlueXP en entrant l'adresse IP de gest
 . Sur la page _Discover_, entrez l'adresse IP de gestion du cluster et le mot de passe du compte utilisateur admin.
 . Si vous découvrez le cluster directement (sans connecteur), vous pouvez sélectionner *Enregistrer les informations d'identification*.
 +
-Si vous sélectionnez cette option, vous n'aurez pas besoin de saisir à nouveau les informations d'identification chaque fois que vous ouvrirez l'environnement de travail. Ces identifiants sont uniquement associés à votre connexion utilisateur BlueXP. Elles ne sont pas sauvegardées pour être utilisées par quiconque dans le compte BlueXP.
+Si vous sélectionnez cette option, vous n'aurez pas besoin de saisir à nouveau les informations d'identification chaque fois que vous ouvrirez l'environnement de travail. Ces identifiants sont uniquement associés à votre connexion utilisateur BlueXP. Ils ne sont pas enregistrés pour être utilisés par d'autres membres de l'organisation BlueXP .
 
 . Sélectionnez *découvrir*.
 +

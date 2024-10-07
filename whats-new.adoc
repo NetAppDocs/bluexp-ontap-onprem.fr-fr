@@ -18,6 +18,20 @@ Découvrez les nouveautés de la gestion des clusters ONTAP sur site dans BlueXP
 
 
 
+== 7 octobre 2024
+
+
+
+=== Prise en charge des systèmes ASA r2
+
+Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP . Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.
+
+Aucune autre option de gestion n'est disponible avec les systèmes ASA r2. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services BlueXP.
+
+https://docs.netapp.com/us-en/asa-r2/index.html["En savoir plus sur les systèmes ASA r2"^]
+
+
+
 == 22 avril 2024
 
 

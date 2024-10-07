@@ -149,9 +149,9 @@ Ouvrez un environnement de travail ONTAP sur site et sélectionnez l'option vue 
 
 .Étapes
 . Sur la page Canevas, sélectionnez le cluster ONTAP sur site sur lequel vous souhaitez provisionner des volumes.
-. En haut à droite, sélectionnez *basculer vers la vue avancée*.
+. Dans le panneau de droite, sous *Services*, recherchez *System Manager* et sélectionnez *Open*.
 +
-image:screenshot-advanced-view.png["Capture d'écran d'un environnement de travail ONTAP sur site présentant l'option basculer vers la vue avancée."]
+image:screenshot-advanced-view.png["Capture d'écran du canevas BlueXP  affichant la liste des services disponibles après la sélection d'un environnement de travail ONTAP sur site."]
 
 . Si le message de confirmation s'affiche, lisez-le et sélectionnez *Fermer*.
 . Utilisez System Manager pour gérer ONTAP.
