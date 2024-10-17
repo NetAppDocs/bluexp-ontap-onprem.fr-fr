@@ -538,7 +538,8 @@
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">Prise en charge des systèmes ASA r2</block>
   <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">Limitations liées aux systèmes ASA r2</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.</block>
-  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou privé. Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">Découvrez les modes de déploiement BlueXP</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">Vous pouvez découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou en mode restreint. La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou en mode restreint. Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
 </blocks>

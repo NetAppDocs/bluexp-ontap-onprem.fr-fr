@@ -20,7 +20,7 @@ Les limitations connues identifient les plateformes, les périphériques ou les 
 
 == Limitations liées aux systèmes ASA r2
 
-* La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.
+* Vous pouvez découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou en mode restreint. La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.
 * Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.
 +
 Aucune autre option de gestion n'est disponible avec les systèmes ASA r2. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services BlueXP.
