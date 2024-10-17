@@ -516,7 +516,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
   <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">Le connecteur hôte doit autoriser des connexions sortantes via le port 443 (HTTPS) et le cluster ONTAP doit autoriser un accès HTTP entrant via le port 443 à la LIF de cluster management.</block>
-  <block id="fde1abb5537b55c34521d414267b3f70" category="section-title">Systèmes ASA r2</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="paragraph">Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">Aucune autre option de gestion n'est disponible avec les systèmes ASA r2. Vous ne pouvez pas utiliser la vue Standard et vous ne pouvez pas activer les services BlueXP.</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">En savoir plus sur les systèmes ASA r2</block>
@@ -537,5 +536,9 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support &gt; gestion NSS*.</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">7 octobre 2024</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">Prise en charge des systèmes ASA r2</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP . Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">Limitations liées aux systèmes ASA r2</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou privé. Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">Découvrez les modes de déploiement BlueXP</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
