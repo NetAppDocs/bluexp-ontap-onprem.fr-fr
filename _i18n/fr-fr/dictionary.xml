@@ -45,7 +45,6 @@
   <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">Systèmes ONTAP pris en charge</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Le coût</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 septembre 2022</block>
-  <block id="440be74a67502f9c3d55890782329328" category="paragraph">Les modifications suivantes ont été introduites avec la version 3.9.22 du connecteur.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">Nouvelle page de présentation</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">Nous avons introduit une nouvelle page de présentation qui contient des informations clés sur un cluster ONTAP sur site. Par exemple, vous pouvez désormais afficher des informations telles que l'efficacité du stockage, la distribution de la capacité et les informations système.</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">Capture d'écran affichant la page Présentation d'un cluster ONTAP sur site.</block>
@@ -53,7 +52,6 @@
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">Nous avons repensé la page volumes pour fournir un récapitulatif des volumes d'un cluster. Le récapitulatif présente le nombre total de volumes, la quantité de capacité provisionnée, la capacité utilisée et réservée, ainsi que la quantité de données hiérarchisées.</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">Capture d'écran présentant la page volumes d'un cluster ONTAP sur site.</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">7 juin 2022</block>
-  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">La modification suivante a été introduite avec la version 3.9.19 du connecteur.</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">Nouvelle vue avancée</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">Si vous avez besoin d'effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l'interface System Manager directement dans Cloud Manager, afin que vous n'ayez pas besoin de quitter Cloud Manager pour une gestion avancée.</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">Cette vue avancée est disponible sous forme d'aperçu avec les clusters ONTAP sur site exécutant la version 9.10.0 ou ultérieure. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.</block>
@@ -127,7 +125,6 @@
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">Que vous déployiez un connecteur pour détecter et gérer vos clusters.</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">Vous pouvez installer le connecteur dans le cloud ou sur site.</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">4 décembre 2022</block>
-  <block id="612111851a1740ab34a9d35045621084" category="paragraph">Les modifications suivantes ont été introduites avec la version 3.9.24 du connecteur.</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">En savoir plus sur cette option de découverte et de gestion</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">Volumes FlexGroup</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">Copie d'écran montrant un volume FlexGroup sur la page volumes pour un cluster ONTAP sur site.</block>
@@ -540,6 +537,8 @@
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">Découvrez les modes de déploiement BlueXP</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
-  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">Vous pouvez découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou en mode restreint. La découverte des systèmes ASA r2 n'est pas prise en charge lorsque vous utilisez BlueXP  en mode privé.</block>
   <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 dans BlueXP  lorsque vous utilisez BlueXP  en mode standard ou en mode restreint. Une fois que vous avez découvert un système NetApp ASA r2 et ouvert votre environnement de travail, vous accédez directement à System Manager.</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">Prise en charge des systèmes ASA r2 en mode privé</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">Vous pouvez désormais découvrir les systèmes NetApp ASA r2 lorsque vous utilisez BlueXP  en mode privé. Cette prise en charge est disponible à partir de la version 3.9.46 du mode privé de BlueXP .</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">26 novembre 2024</block>
 </blocks>

@@ -1,0 +1,13 @@
+= Prise en charge des systèmes ASA r2 en mode privé
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge des systèmes ASA r2 en mode privé
+
+Vous pouvez désormais découvrir les systèmes NetApp ASA r2 lorsque vous utilisez BlueXP  en mode privé. Cette prise en charge est disponible à partir de la version 3.9.46 du mode privé de BlueXP .
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["En savoir plus sur les systèmes ASA r2"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Découvrez les modes de déploiement BlueXP"^]
+
