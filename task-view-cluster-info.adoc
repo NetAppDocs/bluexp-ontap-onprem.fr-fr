@@ -16,26 +16,4 @@ summary: 'Le portefeuille digital BlueXP vous permet de consulter les détails d
 [role="lead"]
 Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.
 
-.Avant de commencer
-Le portefeuille digital BlueXP affiche des informations détaillées sur les clusters ONTAP sur site que vous avez détectés en tant qu'environnement de travail ou associés à un compte sur le site de support NetApp que vous avez ajouté à BlueXP.
-
-.Étapes
-. Dans le menu de navigation BlueXP, sélectionnez *gouvernance > porte-monnaie numérique*.
-. Sélectionnez *ONTAP sur site*.
-+
-Si vous êtes invité à saisir d'abord les identifiants de votre compte sur le site de support NetApp, saisissez-les dans le tableau de bord du support. Une fois le compte ajouté, les clusters qui figurent dans ce compte sont affichés.
-
-+
-Les dates d'expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.
-
-+
-image:screenshot_digital_wallet_onprem_main.png["Capture d'écran indiquant l'extension des détails du cluster pour vous permettre d'afficher les informations de licence du cluster."]
-
-. Si vous n'avez pas encore découvert de cluster comme environnement de travail, sélectionnez *Discover* et suivez les invites.
-+
-Une fois que vous avez identifié un cluster, il est disponible en tant qu'environnement de travail dans BlueXP pour que vous puissiez le gérer.
-
-
-
-.Lien associé
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP"^]
