@@ -16,4 +16,7 @@ summary: 'Le portefeuille digital BlueXP vous permet de consulter les détails d
 [role="lead"]
 Le portefeuille digital BlueXP vous permet de consulter les détails des contrats pour chacun de vos clusters ONTAP sur site. Si vous n'avez pas encore découvert de cluster dans BlueXP, vous pouvez également le faire à partir du portefeuille digital.
 
+.Rôle BlueXP requis :
+Administrateur d'organisation, ou administrateur de dossier ou de projet. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Découvrez les rôles d’accès BlueXP ."^]
+
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Découvrez plus en détail comment gérer les licences des clusters ONTAP sur site à partir du portefeuille digital BlueXP"^]

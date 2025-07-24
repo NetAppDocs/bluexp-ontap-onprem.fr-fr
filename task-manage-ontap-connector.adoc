@@ -14,9 +14,12 @@ summary: 'Si vous avez découvert un cluster ONTAP sur site à l"aide d"un conne
 
 
 [role="lead"]
-Si vous avez découvert un cluster ONTAP sur site à l'aide d'un connecteur, vous pouvez créer des volumes à partir de la vue Standard, utiliser System Manager depuis la vue avancée et activer les services de données BlueXP.
+Si vous avez découvert un cluster ONTAP sur site à l’aide d’un connecteur, vous pouvez créer des volumes directement à partir de l’interface BlueXP , accéder à ONTAP System Manager (à partir de BlueXP) pour une gestion avancée et activer les services de données BlueXP .
 
-Sur le Canvas, l'icône de l'environnement de travail d'un cluster détecté avec un connecteur doit ressembler à ce qui suit :
+.Rôle BlueXP requis :
+Administrateur d'organisation, administrateur de dossier ou de projet, administrateur de stockage ou spécialiste de l'état du système. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Découvrez les rôles d’accès BlueXP ."^]
+
+Sur le canevas, l’icône de l’environnement de travail d’un cluster que vous avez découvert avec un connecteur ressemble à ce qui suit :
 
 image:screenshot-connector-we.png["Capture d'écran de l'icône de l'environnement de travail qui s'affiche sur le canevas"]
 
@@ -24,15 +27,11 @@ Si un environnement de travail a été découvert directement, l'icône de l'env
 
 
 
-== Créez des volumes FlexVol à partir de la vue Standard
+== Créer des volumes FlexVol à partir de BlueXP
 
-Une fois que vous avez découvert votre cluster ONTAP sur site à partir de BlueXP à l'aide d'un connecteur, vous pouvez ouvrir l'environnement de travail pour provisionner et gérer des volumes FlexVol.
+Après avoir découvert votre cluster ONTAP sur site à partir de BlueXP à l’aide d’un connecteur, vous pouvez provisionner et gérer les volumes FlexVol directement à partir de BlueXP.
 
-
-
-=== Créer des volumes
-
-BlueXP vous permet de créer des volumes NFS ou CIFS sur des agrégats existants. Il est impossible de créer de nouveaux agrégats sur un cluster ONTAP sur site à partir de la vue standard BlueXP. Vous devez utiliser la vue avancée pour créer des agrégats.
+BlueXP vous permet de créer des volumes NFS ou CIFS sur des agrégats existants. Il n'est pas possible de créer de nouveaux agrégats sur un cluster ONTAP local depuis l'interface BlueXP native ; cependant, vous pouvez accéder au gestionnaire système ONTAP correspondant depuis BlueXP pour créer des agrégats.
 
 .Étapes
 . Dans le menu de navigation, sélectionnez *stockage > Canvas*.
@@ -81,7 +80,7 @@ La liste suivante décrit les champs pour lesquels vous pourriez avoir besoin de
 
 
 
-== Créer des volumes FlexGroup
+== Créer des volumes FlexGroup avec l'API BlueXP
 
 Vous pouvez utiliser l'API BlueXP pour créer des volumes FlexGroup. Les volumes FlexGroup sont des volumes scale-out qui fournissent des performances élevées et une répartition automatique de la charge.
 
@@ -91,17 +90,15 @@ Vous pouvez utiliser l'API BlueXP pour créer des volumes FlexGroup. Les volumes
 
 
 
-== Administration de ONTAP à l'aide de l'affichage avancé (System Manager)
+== Accéder à ONTAP System Manager depuis BlueXP
 
-Si vous avez besoin d'effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager, qui est une interface de gestion fournie avec un système ONTAP. Nous avons inclus l'interface System Manager directement dans BlueXP afin que vous n'ayez pas besoin de laisser BlueXP pour une gestion avancée.
-
-Cette vue avancée est disponible sous forme d'aperçu. Nous prévoyons d'affiner cette expérience et d'ajouter des améliorations dans les prochaines versions. Envoyez-nous vos commentaires à l'aide de l'outil de chat In-Product.
+Si vous devez effectuer une gestion avancée d'un cluster ONTAP sur site, vous pouvez utiliser ONTAP System Manager. Vous pouvez accéder à l'interface d' ONTAP System Manager directement dans BlueXP , sans avoir à quitter BlueXP pour la gestion avancée.
 
 
 
 === Caractéristiques
 
-La vue avancée de BlueXP vous donne accès à des fonctions de gestion supplémentaires :
+Lorsque vous accédez à ONTAP System Manager depuis BlueXP, vous avez accès à des fonctionnalités de gestion supplémentaires :
 
 * Gestion avancée du stockage
 +
@@ -137,15 +134,15 @@ L'intégration de System Manager n'est pas prise en charge dans les régions Gov
 
 === Limites
 
-Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'utilisation de la vue avancée dans BlueXP.
+Certaines fonctionnalités de System Manager ne sont pas prises en charge avec les clusters ONTAP sur site lors de l'accès à ONTAP System Manager via BlueXP.
 
 link:reference-limitations.html["Consultez la liste des limites"].
 
 
 
-=== Utilisez la vue avancée
+=== Accéder à ONTAP System Manager depuis BlueXP
 
-Ouvrez un environnement de travail ONTAP sur site et sélectionnez l'option vue avancée.
+Ouvrez un environnement de travail ONTAP sur site et ouvrez le gestionnaire système pour l’environnement.
 
 .Étapes
 . Sur la page Canevas, sélectionnez le cluster ONTAP sur site sur lequel vous souhaitez provisionner des volumes.
